@@ -1,6 +1,6 @@
 # Madrid demographic counterfactual, 2015–2025: implementation plan
 
-**Status:** research and design only; no application or data pipeline has been implemented.  
+**Status:** core software implemented and fixture/browser checks passing; core pipeline, explorer, QA/export, and research scenario APIs implemented. Official source acquisition, empirical audits, release gates, and conditional research validation remain incomplete. See [implementation status](docs/IMPLEMENTATION.md).
 **Headline comparison:** 1 January 2015 to 1 January 2025 (subject to the source audit below).  
 **Recommended public term:** **observed-minus-expected population residual**. In short UI labels use **demographic residual**; describe the combined Spanish + foreign result, cautiously, as a **net residential-change proxy after mortality**. Never call it observed migration.
 

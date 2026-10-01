@@ -1,66 +1,58 @@
 # Madrid demographic residual
 
-An analytical pipeline and static explorer for the question: **what would Madrid's areas look like if their 2015 residents had aged in place under natural mortality?**
+A reproducible offline cohort-survival pipeline and static explorer for Madrid, following [PLAN.md](PLAN.md). Source acquisition, normalization, geometry auditing, exact crosswalks, modeling, QA, Parquet/CSV export, sensitivity scenarios, and the explorer are implemented. **Official Madrid results are not yet available:** historical sources and empirical release gates still need acquisition and validation. See [implementation status](docs/IMPLEMENTATION.md).
 
-This implementation follows [`PLAN.md`](PLAN.md). It does not bundle or invent official results. The checked-in web payload is an explicitly labelled deterministic demonstration dataset so the interface can be reviewed before official source acquisition and GIS harmonisation are signed off.
+The generated demonstration uses artificial counts, mortality schedules, and rectangular polygons. Both the website and manifests identify it as synthetic. Exact-only results are the default; their parent aggregates explicitly disclose subset coverage.
 
-## Run the demonstration
+## Run
+
+Use Python 3.12. In the prepared environment:
 
 ```bash
+source .venv/bin/activate
 python scripts/build_demo.py
 python -m http.server 8000 -d web
 ```
 
-Open <http://localhost:8000>. The app has no build-time JavaScript dependencies.
+Open <http://localhost:8000>. The explorer has no JavaScript build dependencies. Two demonstration windows, 2015–2025 and 2014–2024, support section zones, barrios, districts, city totals, age presets/custom ranges, quality filters, charts, tables, and downloads.
 
-## Run the analytical pipeline
-
-Input padrón files must be normalised to long form:
-
-```csv
-geography_id,age,sex,nationality,population
-2807901001,25,male,ESP,42
-2807901001,25,female,EXT,17
-```
-
-The two endpoint files use the same schema. `sex` is `male` or `female`; `nationality` is `ESP` or `EXT`. The mortality file contains annual single-age probabilities:
-
-```csv
-year,age,sex,qx
-2015,25,male,0.0008
-```
-
-The geography file defines the leaf areas and aggregation hierarchy:
-
-```csv
-area_id,name,level,parent_id,boundary_status,boundary_method
-2807901001,Section 001,section,B01,unchanged,direct
-B01,Example barrio,barrio,D01,unchanged,aggregate
-D01,Example distrito,distrito,MAD,unchanged,aggregate
-MAD,Madrid,city,,unchanged,aggregate
-```
-
-Run:
+For a fresh checkout:
 
 ```bash
-python -m madrid_demography.cli \
-  --start data/normalised/padron_2015-01-01.csv \
-  --end data/normalised/padron_2025-01-01.csv \
-  --mortality data/normalised/mortality_2015_2024.csv \
-  --geographies data/normalised/geographies.csv \
-  --start-year 2015 --end-year 2025 \
-  --output web/data/analysis.json
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.lock
+pip install --no-deps -e .
+python scripts/build_demo.py
 ```
 
-The command fails on duplicate cells, invalid categories, missing annual mortality probabilities, hierarchy cycles, and arithmetic invariant violations. Ages below the interval length are retained as observed-only endpoint cells and are not assigned a cohort residual.
+GDAL (`ogr2ogr`, tested with the installed GDAL CLI) is needed only to import official shapefile archives. Geometry overlay and analysis use Shapely and PyProj.
 
-## Test
+## Analytical workflow
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests -v
+python -m madrid_demography.cli acquire --lock sources.lock.yml --root data/raw
+python -m madrid_demography.cli discover data/raw/RESOURCE_ID/CHECKSUM
+python -m madrid_demography.cli normalize data/raw/RESOURCE_ID/CHECKSUM --schema REVIEWED_SCHEMA_ID --date 2015-01-01 --source-id RESOURCE_ID --output data/intermediate/padron_2015.csv
+python -m madrid_demography.cli overlay --old data/intermediate/sections_2015.geojson --new data/intermediate/sections_2025.geojson --crs EPSG:25830 --output data/intermediate/boundary_audit
+python -m madrid_demography.cli prepare config/project.json
+python -m madrid_demography.cli build config/project.json
 ```
 
-## Production-data gate
+These commands require real input files and a completed project configuration; placeholder source URLs and schema aliases are explicitly unverified. Acquisition never automatically approves a checksum or historical date. Instructions and all contracts are in [the data workflow](docs/DATA_WORKFLOW.md); [the configuration example](config/project.example.json) illustrates the build structure.
 
-Before publishing real results, complete Phase 0 in [`PLAN.md`](PLAN.md): pin official downloads and checksums, verify endpoint semantics, reconcile city totals, build the reviewed 2015/2025 geographic crosswalk, and replace the demo payload. `web/data/analysis.json` carries `dataset_kind`; the UI displays a blocking demo banner unless it equals `official`.
+Official builds require pinned sources, reviewed January profiles, independent published totals, geometry and parent audits, independently reproduced survival chains, and checksum-bound review evidence. They fail closed on missing evidence, changed inputs, or failed invariants. Births and nationality corrections remain explicitly separate research scenarios, enabled only with supplied validated inputs.
 
+## Verify
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/build_demo.py
+python scripts/check_budgets.py
+pip install -r requirements-test.lock
+python scripts/check_browser.py
+```
+
+The browser script uses `/usr/bin/chromium` locally; set `MADRID_BROWSER=playwright` to use a Playwright-installed browser. It needs permission to launch Chromium and listen on localhost. CI runs analytical, fixture-budget, and browser checks. The manual official-build workflow acquires pinned resources, prepares canonical inputs, enforces release gates, and uploads artifacts without deploying them.
+
+Generated window bundles and raw official data are excluded from Git; rebuild the demonstration after checkout. Hashed JSON/gzip artifacts permit immutable caching; catalog and manifest files require revalidation. See the generated `audit.html`, `reports/`, and manifest for QA, source hashes, code hashes, geometry versions, and payload sizes.

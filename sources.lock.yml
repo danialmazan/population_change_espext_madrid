@@ -1,0 +1,35 @@
+version: 1
+status: awaiting-official-acquisition-and-review
+sources:
+  - id: madrid-catalogue
+    url: https://datos.madrid.es/egob/catalogo/200076-0-padron.xml
+    role: catalogue
+    sha256: null
+    bytes: null
+    reviewed_by: null
+  - id: padron-current-discovery
+    url: https://datos.madrid.es/egob/catalogo/200076-0-padron.csv
+    role: discovery-only-not-historical-endpoint
+    sha256: null
+    bytes: null
+    reviewed_by: null
+  - id: ine-mortality-metadata
+    url: https://servicios.ine.es/wstempus/js/ES/TABLA/27154?tip=AM
+    role: mortality-discovery
+    sha256: null
+    bytes: null
+    reviewed_by: null
+  - id: sections-2015-candidate
+    url: https://www.ine.es/prodyser/cartografia/seccionado_2015.zip
+    role: geometry-candidate-unverified
+    reference_date: '2015-01-01'
+    sha256: null
+    bytes: null
+    reviewed_by: null
+  - id: sections-2025-candidate
+    url: https://www.ine.es/prodyser/cartografia/seccionado_2025.zip
+    role: geometry-candidate-unverified
+    reference_date: '2025-01-01'
+    sha256: null
+    bytes: null
+    reviewed_by: null

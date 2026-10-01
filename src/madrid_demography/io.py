@@ -50,9 +50,15 @@ def read_population(path: str | Path) -> dict[PopulationKey, int]:
     for line, row in enumerate(_rows(path, required), 2):
         try:
             age = int(row["age"])
+            if row.get("age_kind") == "open" and age < 100:
+                raise ContractError(
+                    "open ages below configured terminal require an explicit model contract"
+                )
             population = int(row["population"])
         except ValueError as exc:
-            raise ContractError(f"{path}:{line}: age/population must be integers") from exc
+            raise ContractError(
+                f"{path}:{line}: age/population must be integers"
+            ) from exc
         sex, nationality = row["sex"], row["nationality"]
         if not 0 <= age <= 130 or population < 0:
             raise ContractError(f"{path}:{line}: invalid age or population")
@@ -84,14 +90,22 @@ def read_mortality(path: str | Path) -> dict[MortalityKey, float]:
 
 def read_geographies(path: str | Path) -> dict[str, Geography]:
     required = {
-        "area_id", "name", "level", "parent_id", "boundary_status", "boundary_method"
+        "area_id",
+        "name",
+        "level",
+        "parent_id",
+        "boundary_status",
+        "boundary_method",
     }
     result: dict[str, Geography] = {}
     for line, row in enumerate(_rows(path, required), 2):
         area_id = row["area_id"]
         if not area_id or area_id in result:
             raise ContractError(f"{path}:{line}: blank or duplicate area_id")
-        if row["level"] not in LEVELS or row["boundary_status"] not in BOUNDARY_STATUSES:
+        if (
+            row["level"] not in LEVELS
+            or row["boundary_status"] not in BOUNDARY_STATUSES
+        ):
             raise ContractError(f"{path}:{line}: invalid level or boundary status")
         result[area_id] = Geography(
             area_id=area_id,
@@ -103,7 +117,9 @@ def read_geographies(path: str | Path) -> dict[str, Geography]:
         )
     for geo in result.values():
         if geo.parent_id and geo.parent_id not in result:
-            raise ContractError(f"{path}: {geo.area_id} has unknown parent {geo.parent_id}")
+            raise ContractError(
+                f"{path}: {geo.area_id} has unknown parent {geo.parent_id}"
+            )
         seen = {geo.area_id}
         cursor = geo
         while cursor.parent_id:
@@ -112,4 +128,3 @@ def read_geographies(path: str | Path) -> dict[str, Geography]:
             seen.add(cursor.parent_id)
             cursor = result[cursor.parent_id]
     return result
-

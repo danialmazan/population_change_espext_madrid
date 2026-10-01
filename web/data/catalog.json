@@ -1,0 +1,1 @@
+{"schema_version": 2, "dataset_kind": "demonstration", "windows": [{"id": "2015-2025", "label": "2015–2025 · demostración", "manifest": "2015-2025/exact/manifest.json", "inclusive_manifest": "2015-2025/manifest.json"}, {"id": "2014-2024", "label": "2014–2024 · demostración", "manifest": "2014-2024/exact/manifest.json", "inclusive_manifest": "2014-2024/manifest.json"}]}

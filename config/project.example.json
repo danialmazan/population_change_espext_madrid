@@ -1,0 +1,31 @@
+{
+  "model": {"start_date":"2015-01-01","end_date":"2025-01-01","mortality_region":"Comunidad de Madrid","zone_version":"2015-2025-v1","terminal_age":100,"min_expected":20,"exact_coverage_gate":0.95,"dataset_kind":"official"},
+  "source_lock":"../sources.lock.yml",
+  "schemas":"schema-aliases.json",
+  "raw_root":"../data/raw",
+  "intermediate":"../data/intermediate",
+  "start":"../data/intermediate/padron_2015.csv",
+  "end":"../data/intermediate/padron_2025.csv",
+  "mortality":"../data/intermediate/mortality_madrid.csv",
+  "survival_reference":"../data/intermediate/mortality_from_lx.csv",
+  "geographies":"../data/intermediate/geographies.csv",
+  "published_totals":"../data/intermediate/published_totals.json",
+  "evidence":"../data/intermediate/evidence.json",
+  "annual_profiles":[],
+  "output":"../web/data/2015-2025",
+  "geometry_audit":{
+    "old":"../data/intermediate/sections_2015.geojson","new":"../data/intermediate/sections_2025.geojson","crs":"EPSG:25830","reviews":"../data/intermediate/geometry_reviews.json","municipality":"../data/intermediate/municipality.geojson",
+    "parents":{
+      "barrio":{"old":"../data/intermediate/barrios_2015.geojson","new":"../data/intermediate/barrios_2025.geojson","crs":"EPSG:25830"},
+      "district":{"old":"../data/intermediate/districts_2015.geojson","new":"../data/intermediate/districts_2025.geojson","crs":"EPSG:25830"}
+    }
+  },
+  "web_geometry":{
+    "barrio":{"path":"../data/intermediate/barrios_2025.geojson","crs":"EPSG:25830"},
+    "district":{"path":"../data/intermediate/districts_2025.geojson","crs":"EPSG:25830"},
+    "city":{"path":"../data/intermediate/municipality.geojson","crs":"EPSG:25830"}
+  },
+  "mortality_variants":{},
+  "research":{},
+  "source_ingestion":{"padron":[],"mortality":[],"gis":[]}
+}
