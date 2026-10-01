@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explorador del cambio demográfico de Madrid frente a una población envejecida sin movilidad.">
+  <title>Madrid, diez años después</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Inicio"><span class="brand-mark">M</span><span>Madrid<br><b>en movimiento</b></span></a>
+    <nav aria-label="Principal"><a href="#explorar">Explorar</a><a href="#metodo">Método</a></nav>
+    <span class="year-pill">2015 → 2025</span>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow">DEMOGRAFÍA · PADRÓN MUNICIPAL</div>
+      <h1>Madrid, <em>diez años</em> después</h1>
+      <p class="lede">¿Cómo serían hoy sus barrios si quienes vivían aquí en 2015 simplemente hubieran envejecido en el mismo lugar?</p>
+      <a class="button" href="#explorar">Explorar el cambio <span>↓</span></a>
+      <div class="hero-note"><b>No contamos mudanzas.</b> Comparamos la población observada con una población contrafactual después de aplicar la supervivencia esperada.</div>
+    </section>
+
+    <aside id="demo-banner" class="demo-banner" role="status" hidden>
+      <b>Vista de demostración</b>
+      <span id="demo-message">Los valores son simulados para probar la interfaz.</span>
+    </aside>
+
+    <section class="explorer" id="explorar">
+      <div class="section-heading">
+        <div><span class="step">01</span><p class="kicker">EXPLORA EL TERRITORIO</p><h2>¿Dónde hay más personas de las esperadas?</h2></div>
+        <p>El indicador principal combina población española y extranjera. Así, los cambios de nacionalidad se compensan aproximadamente.</p>
+      </div>
+
+      <div class="controls" aria-label="Filtros de análisis">
+        <label>Geografía<select id="level"><option value="district">Distrito</option><option value="city">Madrid total</option></select></label>
+        <label>Indicador<select id="indicator"><option value="residual_per_1000">Residual por 1.000 esperados</option><option value="residual">Residual total</option></select></label>
+        <label>Área<select id="area"></select></label>
+      </div>
+
+      <div class="dashboard-grid">
+        <article class="map-card card">
+          <div class="card-title"><div><span class="micro">COMPARACIÓN TERRITORIAL</span><h3 id="map-title">Distritos</h3></div><div class="legend"><span>−</span><i></i><span>+</span></div></div>
+          <div id="territory" class="territory" role="list" aria-label="Comparación de áreas"></div>
+          <p class="card-foot">Selecciona un área para abrir su perfil. El tamaño de cada celda no representa superficie.</p>
+        </article>
+
+        <article class="summary-card card">
+          <span class="micro">PERFIL DEL ÁREA</span>
+          <h3 id="area-name">Madrid</h3>
+          <div id="quality" class="quality"></div>
+          <div class="metric primary"><span>Residual combinado</span><strong id="residual">—</strong><small id="rate">—</small></div>
+          <div class="metric-row"><div class="metric"><span>Observada · 10+</span><strong id="actual">—</strong></div><div class="metric"><span>Esperada · 10+</span><strong id="expected">—</strong></div></div>
+          <div class="under-ten"><span>0–9 años en 2025</span><b id="under-ten">—</b><small>Observados por separado; no existían al inicio.</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="profile-section">
+      <div class="section-heading compact"><div><span class="step">02</span><p class="kicker">PERFIL POR EDAD</p><h2>La huella de cada cohorte</h2></div><p>Las barras muestran la diferencia entre población observada y esperada. La línea clara suma ESP + EXT.</p></div>
+      <div class="chart-card card">
+        <div class="chart-key"><span><i class="esp"></i> Española</span><span><i class="ext"></i> Extranjera</span><span><i class="total"></i> Total</span></div>
+        <svg id="age-chart" viewBox="0 0 1000 360" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">Residual por edad</title><desc id="chart-desc">Diferencias positivas y negativas entre la población observada y esperada.</desc></svg>
+      </div>
+    </section>
+
+    <section class="method" id="metodo">
+      <div><span class="step light">03</span><p class="kicker">CÓMO LEERLO</p><h2>Tres cantidades,<br>una comparación honesta</h2></div>
+      <div class="method-grid">
+        <article><span>1</span><h3>Observada</h3><p>Personas inscritas en el padrón en 2025. Es el dato que conocemos.</p></article>
+        <article><span>2</span><h3>Esperada</h3><p>Supervivientes estimados de la población de 2015 si nadie hubiera cambiado de área.</p></article>
+        <article><span>3</span><h3>Residual</h3><p>Observada menos esperada. Resume entradas, salidas, clasificación y error del modelo; no es un flujo observado.</p></article>
+      </div>
+      <p class="formula">POBLACIÓN OBSERVADA <b>−</b> CONTRAFACTUAL TRAS MORTALIDAD <b>=</b> RESIDUAL DEMOGRÁFICO</p>
+    </section>
+  </main>
+  <footer><span>Madrid en movimiento</span><span>Metodología abierta · Datos versionados</span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
