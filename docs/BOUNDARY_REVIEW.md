@@ -61,3 +61,5 @@ python scripts/render_boundary_atlas.py
 Acquire independently dated Madrid barrio and distrito boundaries, or official change records sufficient to construct and validate common historical parents. Start with districts 18 and 19 and the cross-district component above. Overlay those parents against both section vintages and retain explicit exceptions. Current boundaries or raw-code dissolves cannot serve as independent 2015 boundary evidence.
 
 City-level research calculations can proceed without assigning a barrio to these components, provided they include exceptional population and retain the conditional count and mortality caveats. They would still need independently reproduced survival and the remaining release reviews before official publication.
+
+Follow-up: [independent parent sources and change records](HISTORICAL_PARENT_SOURCES.md) are now acquired. The registry corroborates 33 of 34 unchanged-polygon parent exceptions. Candidate polygon layers fail endpoint-validity/containment requirements; no independent parent geometry has been approved.

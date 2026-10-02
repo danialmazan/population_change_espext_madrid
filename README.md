@@ -1,6 +1,6 @@
 # Madrid demographic residual
 
-A reproducible offline cohort-survival pipeline and static explorer for Madrid, following [PLAN.md](PLAN.md). Source acquisition, normalization, geometry auditing, exact crosswalks, modeling, QA, Parquet/CSV export, sensitivity scenarios, and the explorer are implemented. **Official Madrid results are not yet available:** 29 source snapshots are pinned; empirical release gates still need resolution and review. See [implementation status](docs/IMPLEMENTATION.md).
+A reproducible offline cohort-survival pipeline and static explorer for Madrid, following [PLAN.md](PLAN.md). Source acquisition, normalization, geometry auditing, exact crosswalks, modeling, QA, Parquet/CSV export, sensitivity scenarios, and the explorer are implemented. **Official Madrid results are not yet available:** 40 source snapshots are pinned; empirical release gates still need resolution and review. See [implementation status](docs/IMPLEMENTATION.md).
 
 The generated demonstration uses artificial counts, mortality schedules, and rectangular polygons. Both the website and manifests identify it as synthetic. Exact-only results are the default; their parent aggregates explicitly disclose subset coverage.
 
@@ -54,7 +54,7 @@ python -m madrid_demography.normalise
 python scripts/check_official_inputs.py
 ```
 
-`normalise` preserves nullable counts and exceptional geography in audit exports. These exports do not satisfy the model-facing `normalize` contract and cannot be published as official results. A separate [conditional blank-count policy](docs/BLANK_COUNT_POLICY.md) produces a labelled research candidate after checking 7,560 monthly controls. The [boundary review](docs/BOUNDARY_REVIEW.md) and [PDF atlas](reports/boundary-review-atlas.pdf) document changed sections and historical parent exceptions. See [integration status](docs/OFFICIAL_INTEGRATION.md).
+`normalise` preserves nullable counts and exceptional geography in audit exports. These exports do not satisfy the model-facing `normalize` contract and cannot be published as official results. A separate [conditional blank-count policy](docs/BLANK_COUNT_POLICY.md) produces a labelled research candidate after checking 7,560 monthly controls. The [boundary review](docs/BOUNDARY_REVIEW.md) and [PDF atlas](reports/boundary-review-atlas.pdf) document changed sections and historical parent exceptions. Independent [historical parent sources](docs/HISTORICAL_PARENT_SOURCES.md) corroborate most raw reassignments but remain blocked on date/geometry validation. See [integration status](docs/OFFICIAL_INTEGRATION.md).
 
 ## Verify
 

@@ -12,7 +12,7 @@ The original “research only” status in PLAN.md was obsolete. The repository 
 
 ## Current official input status
 
-The earlier network blocker has been cleared. The source lock now pins 29 acquired snapshots, including January 2014–2025 files and both endpoint geometry archives. The empirical audit, independent controls and remaining release blockers are recorded in [OFFICIAL_INTEGRATION.md](OFFICIAL_INTEGRATION.md). Acquisition review is not an analytical release approval.
+The earlier network blocker has been cleared. The source lock now pins 40 acquired snapshots, including January 2014–2025 files and both endpoint geometry archives. The empirical audit, independent controls and remaining release blockers are recorded in [OFFICIAL_INTEGRATION.md](OFFICIAL_INTEGRATION.md). Acquisition review is not an analytical release approval.
 
 ## Validation
 

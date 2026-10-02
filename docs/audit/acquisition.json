@@ -1,5 +1,5 @@
 {
-  "manifest_sha256": "4da15d9b0f72d6052165a8944427dcea89ea48a93b1293c53081eaef69abb00f",
+  "manifest_sha256": "af01d030f16a8c04b98dbff25a1aa612378c332853e039676e6fd71160d99c3e",
   "dataset_kind": "audit_only",
   "production_ready": false,
   "verification": "Checksum and byte-size checks against pinned manifest; original receipts retained locally.",
@@ -206,6 +206,83 @@
       "reference_date": "2015-01-01",
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
       "license": null
+    },
+    {
+      "id": "municipal_barrios_historical",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_barrios_current",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_districts_current",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_parent_metadata_barrios",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_parent_metadata_limits",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_parent_geoportal_barrios",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_parent_geoportal_limits",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_births_map_2025",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_births_map_metadata",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex source/archive inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "municipal_section_history",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex download inspection, 2026-10-02; no analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_section_history_catalogue",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex download inspection, 2026-10-02; no analytical release approval",
+      "license": "CC-BY-4.0"
     }
   ]
 }

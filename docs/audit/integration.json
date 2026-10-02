@@ -1,7 +1,7 @@
 {
   "production_ready": false,
-  "manifest_sha256": "4da15d9b0f72d6052165a8944427dcea89ea48a93b1293c53081eaef69abb00f",
-  "verified_snapshots": 29,
+  "manifest_sha256": "af01d030f16a8c04b98dbff25a1aa612378c332853e039676e6fd71160d99c3e",
+  "verified_snapshots": 40,
   "alternate_2015_export_rows_identical": 232993,
   "monthly_controls": [
     {

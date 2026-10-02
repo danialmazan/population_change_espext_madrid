@@ -31,8 +31,10 @@ District-by-single-age controls now match all 7,560 four-way count totals for ba
 
 ## Validation and next step
 
-58 automated tests pass. `scripts/check_official_inputs.py` verifies all 29 source hashes and sizes, full CSV/TXT equality, and all four monthly control totals. Endpoint audit exports conserve known counts and null counts; national mortality covers all 2,000 required sex/year/age cells.
+65 automated tests pass. `scripts/check_official_inputs.py` verifies all 29 source hashes and sizes, full CSV/TXT equality, and all four monthly control totals. Endpoint audit exports conserve known counts and null counts; national mortality covers all 2,000 required sex/year/age cells.
 
 Next: review changed geometry components and historical barrio/district parents, alongside the documented monthly-source and conditional blank-cell policy. Annual revised differences remain 7,672 people in 2015 and 12,440 in 2025; the monthly controls show these differences are between published series, rather than a failure to sum the CSV. The exact revisions remain unexplained. Independent survival reproduction, regional mortality sensitivity, and licensing review also remain required before an official release.
 
 Subsequent boundary review: [BOUNDARY_REVIEW.md](BOUNDARY_REVIEW.md) confirms the geometric components and documents 50 parent exceptions, including 34 unchanged polygons with changed or ambiguous raw parent assignments. Only 94.47% of known 2025 population lies in zones with one unchanged raw barrio code; independent historical parents remain unverified.
+
+Subsequent acquisition: [HISTORICAL_PARENT_SOURCES.md](HISTORICAL_PARENT_SOURCES.md) documents independent candidate geometry and the official 1988–2024 section registry. The manifest now has 40 verified snapshots. The registry corroborates 33 of 34 unchanged-geometry parent exceptions; all six geometry candidates remain blocked on endpoint validity and containment.
