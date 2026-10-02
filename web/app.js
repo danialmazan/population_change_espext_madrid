@@ -321,7 +321,7 @@ async function selectArea(id) {
     $("#terminal-note").textContent =
       `Edades ${state.manifest.config.terminal_age}+: ${fmt(area.observed_terminal)} observadas, excluidas del residual.`;
     $("#sensitivity").textContent = data.sensitivities.length
-      ? "Variantes (todas las cohortes comparables): " +
+      ? "Variantes (cohortes y límites de edad indicados): " +
         data.sensitivities
           .map(
             (s) =>
@@ -399,8 +399,18 @@ async function loadGeometry(token) {
   state.shapes = shapes;
   renderMap();
 }
+async function loadIndicators() {
+  const token = state.loadToken, level = state.level, preset = state.preset;
+  const ref = state.manifest.indicators_by_level_preset?.[level]?.[preset];
+  if (!ref) return true;
+  const indicators = await json(asset(ref));
+  if (token !== state.loadToken || level !== state.level || preset !== state.preset) return false;
+  state.indicators = indicators;
+  return true;
+}
 async function changeLevel() {
   state.level = $("#level").value;
+  if (!(await loadIndicators())) return;
   const available = rows();
   options(
     $("#area"),
@@ -434,9 +444,14 @@ async function loadWindow() {
   if (token !== state.loadToken) return;
   state.index = index;
   state.indicators = indicators;
+  const research = manifest.dataset_kind === "research";
+  levels.barrio = research ? "Ámbito común de barrios" : "Barrio";
+  levels.district = research ? "Ámbito común de distritos" : "Distrito";
+  $("#source-attribution").hidden = !research;
+  $("#source-attribution").textContent = "Fuentes: Ayuntamiento de Madrid, padrón municipal y Banco de Datos Municipal; Instituto Nacional de Estadística (INE), tablas de mortalidad y secciones censales. Consulta del 2 de octubre de 2026. Reutilización de datos estadísticos bajo CC BY 4.0 según las fuentes. Transformaciones: agregación condicional, supervivencia y ámbitos comunes de investigación; sin aprobación estadística oficial.";
   const demo = manifest.dataset_kind !== "official" || !manifest.release_passed;
   $("#demo-banner").hidden = !demo;
-  $("#demo-banner b").textContent = demo ? "Vista de demostración" : "";
+  $("#demo-banner b").textContent = manifest.dataset_kind === "research" ? "Resultados de investigación" : demo ? "Vista de demostración" : "";
   $("#demo-message").textContent = manifest.notice || "";
   $("#year-pill").textContent = `${manifest.start_year} → ${manifest.end_year}`;
   $("#coverage").textContent =
@@ -452,7 +467,7 @@ async function loadWindow() {
   );
   $("#level").value = index.some((a) => a.level === state.level)
     ? state.level
-    : "district";
+    : manifest.default_level;
   options(
     $("#preset"),
     manifest.presets.map((p) => [p.id, p.label]),
@@ -480,7 +495,7 @@ async function loadWindow() {
     links.append(a);
   }
   $("#version").textContent =
-    `Zona: ${manifest.config.zone_version} · Mortalidad: ${demo ? "simulada" : manifest.config.mortality_region} · Código: ${manifest.build_commit.slice(0, 12)} · Carga inicial comprimida: ${fmt(manifest.performance.initial_gzip_bytes / 1000)} KB.`;
+    `Zona: ${manifest.config.zone_version} · Mortalidad: ${manifest.dataset_kind === "demonstration" ? "simulada" : manifest.config.mortality_region} · Código: ${manifest.build_commit.slice(0, 12)} · Carga inicial comprimida: ${fmt(manifest.performance.initial_gzip_bytes / 1000)} KB.`;
   await changeLevel();
 }
 async function init() {
@@ -501,7 +516,7 @@ async function init() {
     renderMap();
     renderTerritory();
   });
-  $("#preset").addEventListener("change", () => {
+  $("#preset").addEventListener("change", async () => {
     state.preset = $("#preset").value;
     const preset = state.manifest.presets.find((p) => p.id === state.preset);
     state.low = preset.min;
@@ -511,9 +526,12 @@ async function init() {
         : preset.max;
     $("#age-min").value = state.low;
     $("#age-max").value = state.high;
-    renderMap();
-    renderTerritory();
-    selectArea(state.areaId);
+    try {
+      if (!(await loadIndicators())) return;
+      renderMap();
+      renderTerritory();
+      await selectArea(state.areaId);
+    } catch (error) { fail(error); }
   });
   $("#custom-age").addEventListener("click", () => customRange().catch(fail));
   $("#age-group").addEventListener("change", () => selectArea(state.areaId));

@@ -1,0 +1,23 @@
+[
+  {
+    "window": "2014-2024-city",
+    "passed": true,
+    "initial_index_indicator_gzip_bytes": 732,
+    "typical_data_gzip_bytes": 20600,
+    "artifact_count": 16
+  },
+  {
+    "window": "2015-2025-areas",
+    "passed": true,
+    "initial_index_indicator_gzip_bytes": 291220,
+    "typical_data_gzip_bytes": 322867,
+    "artifact_count": 49
+  },
+  {
+    "window": "2015-2025-city",
+    "passed": true,
+    "initial_index_indicator_gzip_bytes": 731,
+    "typical_data_gzip_bytes": 20791,
+    "artifact_count": 16
+  }
+]

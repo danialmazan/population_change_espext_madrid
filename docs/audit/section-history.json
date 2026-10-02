@@ -1,0 +1,2211 @@
+{
+  "production_ready": false,
+  "source_id": "municipal_section_history",
+  "source_sha256": "38ed0bfea6029b041363e8ba258beb329c1b24ece2c12228b2596a3ece4ecb3b",
+  "metadata": {
+    "sheet": "N0104020000010998004",
+    "title": "1. Historia del seccionado 1988 - 2024",
+    "records": 2713
+  },
+  "date_errors": [
+    {
+      "row_number": 2419,
+      "section_id": "2807918002",
+      "parent": "1801",
+      "previous_parent": null,
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2440,
+      "section_id": "2807918023",
+      "parent": "1801",
+      "previous_parent": null,
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": "Aumenta en 372 electores (65,56 %) procedentes de la sección 18-183-51"
+    },
+    {
+      "row_number": 2442,
+      "section_id": "2807918025",
+      "parent": "1801",
+      "previous_parent": null,
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2445,
+      "section_id": "2807918045",
+      "parent": "1801",
+      "previous_parent": null,
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "025",
+      "destination": "",
+      "notes": "Disminuye 103 electores de 1.388 (7,42%) pasan a la sección 18-183-57"
+    },
+    {
+      "row_number": 2446,
+      "section_id": "2807918046",
+      "parent": "1801",
+      "previous_parent": null,
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "002",
+      "destination": "",
+      "notes": "Disminuye 386 electores de 1.231 (31,36%) pasan a la sección 18-183-59"
+    },
+    {
+      "row_number": 2465,
+      "section_id": "2807918047",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "025",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2466,
+      "section_id": "2807918049",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2467,
+      "section_id": "2807918050",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "046",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2468,
+      "section_id": "2807918051",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": "Disminuye 372 electores de 1.317 (28,25%) pasan a la sección 18-181-23"
+    },
+    {
+      "row_number": 2469,
+      "section_id": "2807918052",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "049",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2470,
+      "section_id": "2807918053",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "049",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2471,
+      "section_id": "2807918054",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2472,
+      "section_id": "2807918055",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "051",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2473,
+      "section_id": "2807918056",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "053",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2474,
+      "section_id": "2807918057",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20101001",
+        "status": "valid",
+        "iso": "2010-10-01",
+        "year": 2010
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": "Aumenta en 103 electores (7,38 %) procedentes de la sección 18-181-45"
+    },
+    {
+      "row_number": 2475,
+      "section_id": "2807918058",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20101001",
+        "status": "valid",
+        "iso": "2010-10-01",
+        "year": 2010
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2476,
+      "section_id": "2807918059",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "046",
+      "destination": "",
+      "notes": "Aumenta en 386 electores (33,19 %) procedentes de la sección 18-181-46"
+    },
+    {
+      "row_number": 2477,
+      "section_id": "2807918060",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2478,
+      "section_id": "2807918061",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "051",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2479,
+      "section_id": "2807918062",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "053",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2480,
+      "section_id": "2807918063",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "054",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2481,
+      "section_id": "2807918064",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "056",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2482,
+      "section_id": "2807918065",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20131001",
+        "status": "valid",
+        "iso": "2013-10-01",
+        "year": 2013
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "050",
+      "destination": "",
+      "notes": ""
+    }
+  ],
+  "comparisons": [
+    {
+      "endpoint": "2015-01-01",
+      "active_registry_sections": 2420,
+      "matching_raw_section_memberships": 2420,
+      "differences": [
+        {
+          "section_id": "2807901888",
+          "raw_parents": [
+            "0000"
+          ],
+          "registry_parents": []
+        },
+        {
+          "section_id": "2807912999",
+          "raw_parents": [
+            "0000"
+          ],
+          "registry_parents": []
+        },
+        {
+          "section_id": "2807915999",
+          "raw_parents": [
+            "0000"
+          ],
+          "registry_parents": []
+        },
+        {
+          "section_id": "2807919999",
+          "raw_parents": [
+            "0000"
+          ],
+          "registry_parents": []
+        }
+      ],
+      "unresolved_registry_rows": [],
+      "registry_only_section_ids": []
+    },
+    {
+      "endpoint": "2025-01-01",
+      "active_registry_sections": 2461,
+      "matching_raw_section_memberships": 2460,
+      "differences": [
+        {
+          "section_id": "2807908130",
+          "raw_parents": [
+            "0808"
+          ],
+          "registry_parents": []
+        },
+        {
+          "section_id": "2807919036",
+          "raw_parents": [
+            "1901",
+            "1902"
+          ],
+          "registry_parents": [
+            "1902"
+          ]
+        },
+        {
+          "section_id": "2807919052",
+          "raw_parents": [
+            "1904"
+          ],
+          "registry_parents": []
+        }
+      ],
+      "unresolved_registry_rows": [
+        2546
+      ],
+      "registry_only_section_ids": []
+    }
+  ],
+  "documented_parent_reassignments": [
+    {
+      "row_number": 2465,
+      "section_id": "2807918047",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "025",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2466,
+      "section_id": "2807918049",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2467,
+      "section_id": "2807918050",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "046",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2468,
+      "section_id": "2807918051",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": "Disminuye 372 electores de 1.317 (28,25%) pasan a la sección 18-181-23"
+    },
+    {
+      "row_number": 2469,
+      "section_id": "2807918052",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "049",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2470,
+      "section_id": "2807918053",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "049",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2471,
+      "section_id": "2807918054",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2472,
+      "section_id": "2807918055",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "051",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2473,
+      "section_id": "2807918056",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20091101",
+        "status": "valid",
+        "iso": "2009-11-01",
+        "year": 2009
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "053",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2474,
+      "section_id": "2807918057",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20101001",
+        "status": "valid",
+        "iso": "2010-10-01",
+        "year": 2010
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": "Aumenta en 103 electores (7,38 %) procedentes de la sección 18-181-45"
+    },
+    {
+      "row_number": 2475,
+      "section_id": "2807918058",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20101001",
+        "status": "valid",
+        "iso": "2010-10-01",
+        "year": 2010
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2476,
+      "section_id": "2807918059",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "046",
+      "destination": "",
+      "notes": "Aumenta en 386 electores (33,19 %) procedentes de la sección 18-181-46"
+    },
+    {
+      "row_number": 2477,
+      "section_id": "2807918060",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "047",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2478,
+      "section_id": "2807918061",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "051",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2479,
+      "section_id": "2807918062",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "053",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2480,
+      "section_id": "2807918063",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "054",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2481,
+      "section_id": "2807918064",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "056",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2482,
+      "section_id": "2807918065",
+      "parent": "1803",
+      "previous_parent": "1801",
+      "created": {
+        "raw": "20131001",
+        "status": "valid",
+        "iso": "2013-10-01",
+        "year": 2013
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171606",
+        "status": "invalid_date_year_only",
+        "iso": null,
+        "year": 2017
+      },
+      "origin": "050",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2507,
+      "section_id": "2807919014",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2508,
+      "section_id": "2807919015",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2509,
+      "section_id": "2807919016",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2510,
+      "section_id": "2807919018",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2511,
+      "section_id": "2807919019",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2512,
+      "section_id": "2807919020",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2513,
+      "section_id": "2807919021",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2514,
+      "section_id": "2807919022",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2515,
+      "section_id": "2807919023",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2516,
+      "section_id": "2807919024",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2517,
+      "section_id": "2807919025",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2518,
+      "section_id": "2807919026",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2519,
+      "section_id": "2807919027",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2520,
+      "section_id": "2807919028",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2521,
+      "section_id": "2807919029",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19880701",
+        "status": "valid",
+        "iso": "1988-07-01",
+        "year": 1988
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2524,
+      "section_id": "2807919032",
+      "parent": "1901",
+      "previous_parent": "1902",
+      "created": {
+        "raw": "19960501",
+        "status": "valid",
+        "iso": "1996-05-01",
+        "year": 1996
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "014",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2527,
+      "section_id": "2807919033",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19990101",
+        "status": "valid",
+        "iso": "1999-01-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2528,
+      "section_id": "2807919034",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19990101",
+        "status": "valid",
+        "iso": "1999-01-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2529,
+      "section_id": "2807919035",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19990101",
+        "status": "valid",
+        "iso": "1999-01-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2530,
+      "section_id": "2807919036",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19990101",
+        "status": "valid",
+        "iso": "1999-01-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2531,
+      "section_id": "2807919037",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19990101",
+        "status": "valid",
+        "iso": "1999-01-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2532,
+      "section_id": "2807919038",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19991201",
+        "status": "valid",
+        "iso": "1999-12-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "034",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2533,
+      "section_id": "2807919039",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "19991201",
+        "status": "valid",
+        "iso": "1999-12-01",
+        "year": 1999
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "037",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2534,
+      "section_id": "2807919043",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "035",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2535,
+      "section_id": "2807919044",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "039",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2536,
+      "section_id": "2807919050",
+      "parent": "1902",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20120701",
+        "status": "valid",
+        "iso": "2012-07-01",
+        "year": 2012
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "034",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2537,
+      "section_id": "2807919040",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20031101",
+        "status": "valid",
+        "iso": "2003-11-01",
+        "year": 2003
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2538,
+      "section_id": "2807919041",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20031101",
+        "status": "valid",
+        "iso": "2003-11-01",
+        "year": 2003
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2539,
+      "section_id": "2807919042",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2540,
+      "section_id": "2807919045",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "040",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2541,
+      "section_id": "2807919046",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20051201",
+        "status": "valid",
+        "iso": "2005-12-01",
+        "year": 2005
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "041",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2542,
+      "section_id": "2807919047",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20070901",
+        "status": "valid",
+        "iso": "2007-09-01",
+        "year": 2007
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "045",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2543,
+      "section_id": "2807919048",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "041",
+      "destination": "",
+      "notes": "Disminuye 248 electores de 1.286 (19,28%) pasan a la sección 19-191-005"
+    },
+    {
+      "row_number": 2544,
+      "section_id": "2807919049",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20081101",
+        "status": "valid",
+        "iso": "2008-11-01",
+        "year": 2008
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "046",
+      "destination": "",
+      "notes": "Disminuye 183 electores de 1.526 (11,99%) pasan a la sección 19-191-002"
+    },
+    {
+      "row_number": 2545,
+      "section_id": "2807919051",
+      "parent": "1903",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20131001",
+        "status": "valid",
+        "iso": "2013-10-01",
+        "year": 2013
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "20171101",
+        "status": "valid",
+        "iso": "2017-11-01",
+        "year": 2017
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": ""
+    },
+    {
+      "row_number": 2546,
+      "section_id": "2807919052",
+      "parent": "1904",
+      "previous_parent": "1901",
+      "created": {
+        "raw": "20171117",
+        "status": "valid",
+        "iso": "2017-11-17",
+        "year": 2017
+      },
+      "closed": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "modified": {
+        "raw": "",
+        "status": "missing",
+        "iso": null,
+        "year": null
+      },
+      "origin": "001",
+      "destination": "",
+      "notes": "Recibe 589 electores de la 19-191-001. Se crea para darle contenido al barrio de El Cañaveral"
+    }
+  ],
+  "interpretation": "Official 1988–2024 change records corroborate membership; year-bracketing preserves invalid dates and cannot determine a date within the erroneous year. Registry comparisons use created <= endpoint < closed; carry-forward into January 2025 remains provisional. No historical boundary geometry is approved by this registry.",
+  "boundary_review_sha256": "871fbd6a407d20972af1fa7ce71bfba73902e1a99ac6ea68aa3f046355af7694",
+  "unchanged_geometry_parent_exception_corroboration": {
+    "total": 34,
+    "fully_matching_registry_count": 33,
+    "matching_zone_ids": [
+      "2807918047",
+      "2807918050",
+      "2807918053",
+      "2807918056",
+      "2807919014",
+      "2807919015",
+      "2807919016",
+      "2807919018",
+      "2807919019",
+      "2807919020",
+      "2807919021",
+      "2807919022",
+      "2807919023",
+      "2807919024",
+      "2807919025",
+      "2807919026",
+      "2807919027",
+      "2807919028",
+      "2807919029",
+      "2807919032",
+      "2807919033",
+      "2807919034",
+      "2807919035",
+      "2807919037",
+      "2807919038",
+      "2807919039",
+      "2807919041",
+      "2807919043",
+      "2807919045",
+      "2807919046",
+      "2807919047",
+      "2807919050",
+      "2807919051"
+    ],
+    "remaining_zone_ids": [
+      "2807919036"
+    ]
+  }
+}

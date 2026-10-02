@@ -1,0 +1,43 @@
+{
+  "padron_january_2015": {
+    "schema_version": 1,
+    "columns": {
+      "COD_DISTRITO": "COD_DISTRITO",
+      "DESC_DISTRITO": "DESC_DISTRITO",
+      "COD_DIST_BARRIO": "COD_DIST_BARRIO",
+      "DESC_BARRIO": "DESC_BARRIO",
+      "COD_BARRIO": "COD_BARRIO",
+      "COD_DIST_SECCION": "COD_DIST_SECCION",
+      "COD_SECCION": "COD_SECCION",
+      "COD_EDAD_INT": "COD_EDAD_INT",
+      "EspanolesHombres": "ESPANOLESHOMBRES",
+      "EspanolesMujeres": "ESPANOLESMUJERES",
+      "ExtranjerosHombres": "EXTRANJEROSHOMBRES",
+      "ExtranjerosMujeres": "EXTRANJEROSMUJERES"
+    },
+    "encoding": "utf-8-sig",
+    "delimiter": ";"
+  },
+  "padron_january_2025": {
+    "schema_version": 1,
+    "columns": {
+      "COD_DISTRITO": "COD_DISTRITO",
+      "DESC_DISTRITO": "DESC_DISTRITO",
+      "COD_DIST_BARRIO": "COD_DIST_BARRIO",
+      "DESC_BARRIO": "DESC_BARRIO",
+      "COD_BARRIO": "COD_BARRIO",
+      "COD_DIST_SECCION": "COD_DIST_SECCION",
+      "COD_SECCION": "COD_SECCION",
+      "COD_EDAD_INT": "COD_EDAD_INT",
+      "ESPANOLESHOMBRES": "ESPANOLESHOMBRES",
+      "ESPANOLESMUJERES": "ESPANOLESMUJERES",
+      "EXTRANJEROSHOMBRES": "EXTRANJEROSHOMBRES",
+      "EXTRANJEROSMUJERES": "EXTRANJEROSMUJERES",
+      "FX_CARGA": "FX_CARGA",
+      "FX_DATOS_INI": "FX_DATOS_INI",
+      "FX_DATOS_FIN": "FX_DATOS_FIN"
+    },
+    "encoding": "utf-8-sig",
+    "delimiter": ";"
+  }
+}

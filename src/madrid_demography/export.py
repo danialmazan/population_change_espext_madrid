@@ -6,11 +6,13 @@ import hashlib
 import html
 import io
 import json
-from pathlib import Path
 import subprocess
-from shapely.geometry import mapping
+from pathlib import Path
+
 import pyarrow as pa
 import pyarrow.parquet as pq
+from shapely.geometry import mapping
+
 from .io import ContractError
 from .qa import official_release_gate, validate_analysis
 
@@ -23,6 +25,50 @@ def dumps(value):
         sort_keys=True,
         allow_nan=False,
     ).encode()
+
+
+def compact_research_manifest(output, manifest):
+    """Keep the complete hash inventory downloadable without loading it on arrival."""
+    if manifest["dataset_kind"] != "research" or "audit_inventory" in manifest:
+        return manifest
+    value = {
+        "artifacts": manifest["artifacts"],
+        "profiles": manifest["profiles"],
+        "budgets": manifest["performance"]["budgets"],
+    }
+    body = dumps(value)
+    sha = hashlib.sha256(body).hexdigest()
+    name = f"inventory.{sha[:16]}.json"
+    output = Path(output)
+    output.joinpath(name).write_bytes(body)
+    compressed = gzip.compress(body, mtime=0)
+    output.joinpath(name + ".gz").write_bytes(compressed)
+    ref = {
+        "url": name,
+        "sha256": sha,
+        "bytes": len(body),
+        "gzip_bytes": len(compressed),
+        "kind": "audit_inventory",
+    }
+    manifest["audit_inventory"] = ref
+    manifest["artifacts"] = {
+        name: ref,
+        **{k: v for k, v in value["artifacts"].items() if v["kind"] != "profile"},
+    }
+    manifest.pop("profiles")
+    profile_budgets = [b for b in value["budgets"] if b["name"].startswith("profile-")]
+    manifest["performance"]["budgets"] = [
+        b for b in value["budgets"] if not b["name"].startswith("profile-")
+    ]
+    manifest["performance"]["budgets"].append(
+        {
+            "name": "all-profiles",
+            "gzip_bytes": max(b["gzip_bytes"] for b in profile_budgets),
+            "budget": 100000,
+            "passed": all(b["passed"] for b in profile_budgets),
+        }
+    )
+    return manifest
 
 
 def topology(polygons, quantization=100000):
@@ -91,18 +137,18 @@ def band_summary(profile, low, high, min_expected):
     valid = bool(eligible) and not partial
     actual = sum(r["actual"] for r in eligible)
     residual = actual - expected if valid else None
-    return dict(
-        actual=observed,
-        expected=expected if valid else None,
-        residual=residual,
-        baseline=sum(r["baseline"] for r in eligible) if valid else None,
-        residual_per_1000=1000 * residual / expected
+    return {
+        "actual": observed,
+        "expected": expected if valid else None,
+        "residual": residual,
+        "baseline": sum(r["baseline"] for r in eligible) if valid else None,
+        "residual_per_1000": 1000 * residual / expected
         if valid and expected >= min_expected and expected
         else None,
-        denominator=expected,
-        rate_suppressed=not valid or expected < min_expected,
-        cohort_eligible=valid,
-    )
+        "denominator": expected,
+        "rate_suppressed": not valid or expected < min_expected,
+        "cohort_eligible": valid,
+    }
 
 
 def write_bundle(
@@ -120,9 +166,9 @@ def write_bundle(
     if not qa["passed"]:
         raise ContractError("QA invariants failed")
     gate = official_release_gate(config, evidence or {}, qa)
-    if config.dataset_kind == "official" and analysis["dataset_kind"] != "official":
+    if config.dataset_kind != analysis["dataset_kind"]:
         raise ContractError(
-            "official release blocked: analytical dataset is not official"
+            f"{config.dataset_kind} release blocked: analytical dataset kind differs from configuration"
         )
     if config.dataset_kind == "official" and not gate["passed"]:
         raise ContractError(
@@ -153,12 +199,12 @@ def write_bundle(
         }
         artifacts[filename] = record
         budgets.append(
-            dict(
-                name=name,
-                gzip_bytes=len(compressed),
-                budget=limit,
-                passed=limit is None or len(compressed) <= limit,
-            )
+            {
+                "name": name,
+                "gzip_bytes": len(compressed),
+                "budget": limit,
+                "passed": limit is None or len(compressed) <= limit,
+            }
         )
         return record
 
@@ -184,7 +230,7 @@ def write_bundle(
         record["profile_url"] = profile_refs[area["id"]]["url"]
         record["geometry_key"] = area["id"]
         geom = geometries_by_level.get(area["level"], {}).get(area["id"])
-        record["centroid"] = list(geom.centroid.coords)[0] if geom else None
+        record["centroid"] = next(iter(geom.centroid.coords)) if geom else None
         index.append(record)
         for preset in presets:
             stats = band_summary(
@@ -323,24 +369,43 @@ def write_bundle(
                 "born": f"0–{config.interval - 1}",
                 "terminal": f"{config.terminal_age}+",
             },
-            "mortality_assumptions": "Regional period life tables; same sex-specific schedule for ESP and EXT",
+            "mortality_assumptions": f"{config.mortality_region} period life tables; same sex-specific schedule for ESP and EXT",
             "nationality_caveat": "Nationality residuals include reclassification; combined residual is a stock difference, not migration flows",
             "limitations": [
                 "Registration differs from residence",
                 "Period life tables approximate cohort mortality",
                 "Moves and model errors cannot be separated",
                 "Sparse and estimated results require caution",
+                *(
+                    [
+                        "Conditional zero inference requires matched complete monthly controls; raw nulls remain unchanged",
+                        "Common research parent aggregates are not approved historical administrative boundaries",
+                    ]
+                    if config.dataset_kind == "research"
+                    else []
+                ),
             ],
         },
     )
     index_ref = artifact("index", index, 500000)
-    indicator_ref = artifact("indicators", indicator_rows, 500000)
+    default_level = (
+        "district" if any(a["level"] == "district" for a in index) else "city"
+    )
+    indicator_refs = {}
+    if config.dataset_kind == "research":
+        for (level, preset), rows in sorted(by_key.items()):
+            indicator_refs.setdefault(level, {})[preset] = artifact(
+                f"indicators-{level}-{preset}", rows, 500000
+            )
+        indicator_ref = indicator_refs[default_level]["cohorts"]
+    else:
+        indicator_ref = artifact("indicators", indicator_rows, 500000)
     initial = index_ref["gzip_bytes"] + indicator_ref["gzip_bytes"]
     if initial > 500000:
         raise ContractError("combined initial payload exceeds 500 KB")
     commit = (
         subprocess.run(
-            ["git", "rev-parse", "HEAD"], capture_output=True, text=True
+            ["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=False
         ).stdout.strip()
         or "unknown"
     )
@@ -349,6 +414,8 @@ def write_bundle(
     for source_path in sorted(
         [
             *code_root.glob("src/**/*.py"),
+            *code_root.glob("scripts/**/*.py"),
+            *code_root.glob("config/**/*.json"),
             *code_root.glob("web/*.js"),
             *code_root.glob("web/*.html"),
             *code_root.glob("web/*.css"),
@@ -359,17 +426,22 @@ def write_bundle(
     manifest = {
         "schema_version": 2,
         "dataset_kind": config.dataset_kind,
-        "notice": "Datos simulados; geometría sintética. No son estadísticas oficiales."
-        if config.dataset_kind != "official"
-        else None,
+        "notice": (
+            "Investigación con datos municipales observados y mortalidad nacional; ceros inferidos bajo controles mensuales. No es una publicación estadística oficial."
+            if config.dataset_kind == "research"
+            else "Datos simulados; geometría sintética. No son estadísticas oficiales."
+            if config.dataset_kind == "demonstration"
+            else None
+        ),
         "config": config.to_dict(),
         "start_year": config.start_year,
         "end_year": config.end_year,
         "interval_years": config.interval,
         "presets": presets,
-        "default_level": "district",
+        "default_level": default_level,
         "index": index_ref,
         "indicators": indicator_ref,
+        "indicators_by_level_preset": indicator_refs,
         "geometry": geometries,
         "qa": qa_ref,
         "sources": source_ref,
@@ -382,10 +454,11 @@ def write_bundle(
         "artifacts": artifacts,
         "build_commit": commit,
         "code_sha256": code_hasher.hexdigest(),
-        "release_passed": gate["passed"],
+        "release_passed": config.dataset_kind == "official" and gate["passed"],
         "performance": {"initial_gzip_bytes": initial, "budgets": budgets},
         "cache_policy": "Hashed assets: public,max-age=31536000,immutable; manifest and catalog: no-cache",
     }
+    compact_research_manifest(output, manifest)
     (output / "manifest.json").write_bytes(dumps(manifest))
     (output / "audit.html").write_text(
         '<!doctype html><html lang="es"><meta charset="utf-8"><title>Auditoría</title><h1>Auditoría del conjunto</h1><p>'

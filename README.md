@@ -1,6 +1,6 @@
 # Madrid demographic residual
 
-A reproducible offline cohort-survival pipeline and static explorer for Madrid, following [PLAN.md](PLAN.md). Source acquisition, normalization, geometry auditing, exact crosswalks, modeling, QA, Parquet/CSV export, sensitivity scenarios, and the explorer are implemented. **Official Madrid results are not yet available:** historical sources and empirical release gates still need acquisition and validation. See [implementation status](docs/IMPLEMENTATION.md).
+A reproducible offline cohort-survival pipeline and static explorer for Madrid, following [PLAN.md](PLAN.md). Source acquisition, normalization, geometry auditing, exact crosswalks, modeling, QA, Parquet/CSV export, sensitivity scenarios, and the explorer are implemented. **Official Madrid results are not yet available:** 40 source snapshots are pinned; empirical release gates still need resolution and review. See [implementation status](docs/IMPLEMENTATION.md).
 
 The generated demonstration uses artificial counts, mortality schedules, and rectangular polygons. Both the website and manifests identify it as synthetic. Exact-only results are the default; their parent aggregates explicitly disclose subset coverage.
 
@@ -39,9 +39,22 @@ python -m madrid_demography.cli prepare config/project.json
 python -m madrid_demography.cli build config/project.json
 ```
 
-These commands require real input files and a completed project configuration; placeholder source URLs and schema aliases are explicitly unverified. Acquisition never automatically approves a checksum or historical date. Instructions and all contracts are in [the data workflow](docs/DATA_WORKFLOW.md); [the configuration example](config/project.example.json) illustrates the build structure.
+These commands require real input files and a completed project configuration; source snapshots are pinned, while the model-facing example configuration and schema aliases still require completion. Acquisition never automatically approves a checksum or historical date. Instructions and all contracts are in [the data workflow](docs/DATA_WORKFLOW.md); [the configuration example](config/project.example.json) illustrates the build structure.
 
 Official builds require pinned sources, reviewed January profiles, independent published totals, geometry and parent audits, independently reproduced survival chains, and checksum-bound review evidence. They fail closed on missing evidence, changed inputs, or failed invariants. Births and nationality corrections remain explicitly separate research scenarios, enabled only with supplied validated inputs.
+
+## Official source audit
+
+The acquired monthly January series, independent annual controls, mortality tables and geometry archives are documented in [SOURCE_AUDIT.md](docs/SOURCE_AUDIT.md) and [RECONCILIATION.md](docs/RECONCILIATION.md). Run the audit independently of the publication pipeline:
+
+```bash
+python -m madrid_demography.profile
+python -m madrid_demography.reconcile
+python -m madrid_demography.normalise
+python scripts/check_official_inputs.py
+```
+
+`normalise` preserves nullable counts and exceptional geography in audit exports. These exports do not satisfy the model-facing `normalize` contract and cannot be published as official results. A separate [conditional blank-count policy](docs/BLANK_COUNT_POLICY.md) produces a labelled research candidate after checking 7,560 monthly controls. The [boundary review](docs/BOUNDARY_REVIEW.md) and [PDF atlas](reports/boundary-review-atlas.pdf) document changed sections and historical parent exceptions. Independent [historical parent sources](docs/HISTORICAL_PARENT_SOURCES.md) corroborate most raw reassignments but remain blocked on date/geometry validation. See [integration status](docs/OFFICIAL_INTEGRATION.md).
 
 ## Verify
 
@@ -56,3 +69,11 @@ python scripts/check_browser.py
 The browser script uses `/usr/bin/chromium` locally; set `MADRID_BROWSER=playwright` to use a Playwright-installed browser. It needs permission to launch Chromium and listen on localhost. CI runs analytical, fixture-budget, and browser checks. The manual official-build workflow acquires pinned resources, prepares canonical inputs, enforces release gates, and uploads artifacts without deploying them.
 
 Generated window bundles and raw official data are excluded from Git; rebuild the demonstration after checkout. Hashed JSON/gzip artifacts permit immutable caching; catalog and manifest files require revalidation. See the generated `audit.html`, `reports/`, and manifest for QA, source hashes, code hashes, geometry versions, and payload sizes.
+
+## Observed research build
+
+The observed research results are in [docs/RESEARCH_RESULTS.md](docs/RESEARCH_RESULTS.md), with an updated [audit PDF](reports/current-audit.pdf), [small-area results](reports/research-area-results.csv) and [downloadable explorer](reports/research-explorer.zip). These are labelled research results; official statistical release gates remain closed.
+
+Install requirements.lock and PyShp 2.3.1, acquire the pinned source lock, then run `python scripts/build_research.py`. The site is generated in `data/derived/research-site`; validate it with `scripts/check_research_budgets.py` and `scripts/check_research_browser.py`. The latter serves localhost and requires Chromium or the Playwright browser. Run `python -m http.server --directory data/derived/research-site` to preview it locally.
+
+GitHub Pages deployment uses the repository's gh-pages branch, root directory. See [deployment instructions](docs/RESEARCH_DEPLOYMENT.md).

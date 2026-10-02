@@ -10,3 +10,6 @@ data/derived/
 web/data/2014-2024/
 web/data/2015-2025/
 playwright-report/
+
+data/normalised/
+data/audit/

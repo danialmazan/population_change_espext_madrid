@@ -1,0 +1,47 @@
+{
+  "url": "https://servpub.madrid.es/CSEBD_WBINTER/detalleSerie.html",
+  "method": "POST",
+  "request": {
+    "fuente": "",
+    "numSerie": "0301000000001",
+    "numId": "1",
+    "nombreSerie": "Poblaci\u00f3n por Distrito y Barrio",
+    "tipoSerie": "B",
+    "listaEpigrafesConsulta": [
+      "Poblaci\u00f3n por Distrito y Barrio"
+    ],
+    "anioSeleccion": "2019",
+    "mesSeleccion": "1",
+    "listaIdsDistritos": [
+      "00 TODOS"
+    ],
+    "listaIdsBarrios": [
+      "00 TODOS"
+    ],
+    "listaIdsSecciones": [],
+    "listaEdades": [
+      "00 TODOS"
+    ],
+    "listaTramos": [],
+    "listaNacionalidades": [
+      "Total"
+    ],
+    "listaSexos": [
+      "Total"
+    ],
+    "tiposDato": "Valores Absolutos",
+    "tiposPorcentaje": "",
+    "accionFormulario": "consultarDatosBarrio",
+    "checkDistrito": "false",
+    "checkBarrio": "false",
+    "checkSeccion": "false",
+    "checkEdad": "false",
+    "checkTramo": "false",
+    "checkNacionalidad": "false",
+    "checkSexo": "false"
+  },
+  "response_encoding": "iso-8859-1",
+  "retrieved_at": "2026-10-02T14:30:48.475473+00:00",
+  "sha256": "8460fcf54d331af54eab63a5f9790fae3798685f64df0aaf079a6d30b5355b88",
+  "bytes": 2738
+}

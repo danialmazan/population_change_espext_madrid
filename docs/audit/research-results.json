@@ -1,0 +1,4283 @@
+{
+  "dataset_kind": "research",
+  "official_release_passed": false,
+  "annual_controls": [
+    {
+      "source_id": "padron_january_2014",
+      "source_sha256": "6a438d7eec853578bd4d15a1f3c8fee113094f66e182a6c413082e0b5e2ba07c",
+      "year": 2014,
+      "rows": 232074,
+      "known_total": 3176508,
+      "modelled_observed_stock": 3176508,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 296007,
+      "raw_blank_cells": 296007,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "ad2ebec9bcf8df59f32331dd12ca718606fc4f1a03d2cbf3f722ed9a0853f1e4",
+      "total_control_sha256": "daa16083b4790b2f093fd6065d7d3c983f7832bebb3e0b12818ab864fd082e47",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2015",
+      "source_sha256": "d85d882dba32bfe79e5f520f14818b4ec31d4bf2dd4ef26e337df77cb439b65d",
+      "year": 2015,
+      "rows": 232993,
+      "known_total": 3149663,
+      "modelled_observed_stock": 3149662,
+      "invalid_age_known_population": 1,
+      "conditionally_inferred_blank_cells": 304657,
+      "raw_blank_cells": 304657,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "d3e33a729eb857076b879598d502dcc0f29162cf34cb0a3b0d414e11bc56fbd5",
+      "total_control_sha256": "d7e985169b40604696a7e381d5033db63c7a02ce4577a6e92d8b628db34329fb",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2016",
+      "source_sha256": "503d874bca4b7ec4c4bd50aa33a736b3f733828779737eeb37733d11c4079927",
+      "year": 2016,
+      "rows": 233469,
+      "known_total": 3174945,
+      "modelled_observed_stock": 3174945,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 302903,
+      "raw_blank_cells": 302903,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "200757de3ab1fafcea83cda74403a3305d75bb032dd3c2157f73ec0741a279c7",
+      "total_control_sha256": "b30dcb7b18388a53360886012621eb9217e281eb449ba4040a747b81950ba36b",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2017",
+      "source_sha256": "851b55169f9e2fead96ce06c574848099efdaa8a5f9e816621c9cffd58544c8e",
+      "year": 2017,
+      "rows": 233949,
+      "known_total": 3191117,
+      "modelled_observed_stock": 3191117,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 300262,
+      "raw_blank_cells": 300262,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "e574fcbeccc601c97e39d56f6d89a8ba2b8b8ce76852b491622eaf472eb68db8",
+      "total_control_sha256": "abea6dbf90b9ec88c65b0e0dfff739bed68889c5818b6ee165bfc675379394de",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2018",
+      "source_sha256": "703cfd909193415218ba9aab2d8933657f9c0b90de7d166ab1fec4055781b8d8",
+      "year": 2018,
+      "rows": 236337,
+      "known_total": 3231062,
+      "modelled_observed_stock": 3231062,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 297248,
+      "raw_blank_cells": 297248,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "da4a98fdd15942cda55542b76a6921d3f69b975e62d3746ef77675dd1ecd3337",
+      "total_control_sha256": "e479f093441e9ec90c982e35a5e11e92aac3db95c0cc4da5d6799d6ab61afaa7",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2019",
+      "source_sha256": "c88a1451c3cb474e165ccd1ef664525cc3edbed17f919b57a73fcf0fc9f40d58",
+      "year": 2019,
+      "rows": 236891,
+      "known_total": 3275195,
+      "modelled_observed_stock": 3275195,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 289584,
+      "raw_blank_cells": 289584,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "fc13b51b39287735a4cf9c8c7aff35a7ac9ea2c64b7f6391781a29dd7828fd80",
+      "total_control_sha256": "8460fcf54d331af54eab63a5f9790fae3798685f64df0aaf079a6d30b5355b88",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2020",
+      "source_sha256": "ce7e52da240bc13e003fdd8aef234f0532a546fbb7eb633ec57f0a6c7d30919a",
+      "year": 2020,
+      "rows": 237581,
+      "known_total": 3345894,
+      "modelled_observed_stock": 3345894,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 280036,
+      "raw_blank_cells": 280036,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "5f29ffe8eedef1d59d34a244a6d9f3b5b7650c6e1c884846ce39361a237eda71",
+      "total_control_sha256": "64b63f8404ebccabaf737da6e541cfe91fbc7663460c3e5f42c7cf22bb8c9ae9",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2021",
+      "source_sha256": "368c14766cbbcc96485a206dc8d6db4d8e0dc428cbcb0761628072c0797d8560",
+      "year": 2021,
+      "rows": 237758,
+      "known_total": 3292949,
+      "modelled_observed_stock": 3292948,
+      "invalid_age_known_population": 1,
+      "conditionally_inferred_blank_cells": 0,
+      "raw_blank_cells": 0,
+      "monthly_controls_matched": false,
+      "age_control_differences": {
+        "0:ESPANOLESHOMBRES": -341,
+        "0:ESPANOLESMUJERES": -288,
+        "0:EXTRANJEROSHOMBRES": -76,
+        "0:EXTRANJEROSMUJERES": -95,
+        "1:ESPANOLESHOMBRES": -152,
+        "1:ESPANOLESMUJERES": -135,
+        "1:EXTRANJEROSHOMBRES": -40,
+        "1:EXTRANJEROSMUJERES": -45,
+        "2:ESPANOLESHOMBRES": -153,
+        "2:ESPANOLESMUJERES": -150,
+        "2:EXTRANJEROSHOMBRES": -61,
+        "2:EXTRANJEROSMUJERES": -87,
+        "3:ESPANOLESHOMBRES": -137,
+        "3:ESPANOLESMUJERES": -92,
+        "3:EXTRANJEROSHOMBRES": -76,
+        "3:EXTRANJEROSMUJERES": -66,
+        "4:ESPANOLESHOMBRES": -128,
+        "4:ESPANOLESMUJERES": -132,
+        "4:EXTRANJEROSHOMBRES": -109,
+        "4:EXTRANJEROSMUJERES": -36,
+        "5:ESPANOLESHOMBRES": -88,
+        "5:ESPANOLESMUJERES": -104,
+        "5:EXTRANJEROSHOMBRES": -80,
+        "5:EXTRANJEROSMUJERES": -100,
+        "6:ESPANOLESHOMBRES": -105,
+        "6:ESPANOLESMUJERES": -11,
+        "6:EXTRANJEROSHOMBRES": -56,
+        "6:EXTRANJEROSMUJERES": -77,
+        "7:ESPANOLESHOMBRES": -122,
+        "7:ESPANOLESMUJERES": -179,
+        "7:EXTRANJEROSHOMBRES": -129,
+        "7:EXTRANJEROSMUJERES": -76,
+        "8:ESPANOLESHOMBRES": -74,
+        "8:ESPANOLESMUJERES": -5,
+        "8:EXTRANJEROSHOMBRES": -35,
+        "8:EXTRANJEROSMUJERES": -60,
+        "9:ESPANOLESHOMBRES": -4,
+        "9:ESPANOLESMUJERES": -87,
+        "9:EXTRANJEROSHOMBRES": -71,
+        "9:EXTRANJEROSMUJERES": -47,
+        "10:ESPANOLESHOMBRES": -121,
+        "10:ESPANOLESMUJERES": -142,
+        "10:EXTRANJEROSHOMBRES": -106,
+        "10:EXTRANJEROSMUJERES": -112,
+        "11:ESPANOLESHOMBRES": -139,
+        "11:ESPANOLESMUJERES": -88,
+        "11:EXTRANJEROSHOMBRES": -36,
+        "11:EXTRANJEROSMUJERES": -48,
+        "12:ESPANOLESHOMBRES": -14,
+        "12:ESPANOLESMUJERES": -50,
+        "12:EXTRANJEROSHOMBRES": -61,
+        "12:EXTRANJEROSMUJERES": -32,
+        "13:ESPANOLESHOMBRES": -58,
+        "13:ESPANOLESMUJERES": 26,
+        "13:EXTRANJEROSHOMBRES": -52,
+        "13:EXTRANJEROSMUJERES": -78,
+        "14:ESPANOLESHOMBRES": -33,
+        "14:ESPANOLESMUJERES": -72,
+        "14:EXTRANJEROSHOMBRES": -31,
+        "14:EXTRANJEROSMUJERES": -88,
+        "15:ESPANOLESHOMBRES": -42,
+        "15:ESPANOLESMUJERES": 14,
+        "15:EXTRANJEROSHOMBRES": -78,
+        "15:EXTRANJEROSMUJERES": -33,
+        "16:ESPANOLESHOMBRES": -57,
+        "16:ESPANOLESMUJERES": -86,
+        "16:EXTRANJEROSHOMBRES": -75,
+        "16:EXTRANJEROSMUJERES": -83,
+        "17:ESPANOLESHOMBRES": -13,
+        "17:ESPANOLESMUJERES": -37,
+        "17:EXTRANJEROSHOMBRES": -110,
+        "17:EXTRANJEROSMUJERES": -64,
+        "18:ESPANOLESHOMBRES": -28,
+        "18:ESPANOLESMUJERES": -99,
+        "18:EXTRANJEROSHOMBRES": -75,
+        "18:EXTRANJEROSMUJERES": -103,
+        "19:ESPANOLESHOMBRES": -58,
+        "19:ESPANOLESMUJERES": -96,
+        "19:EXTRANJEROSHOMBRES": -143,
+        "19:EXTRANJEROSMUJERES": -121,
+        "20:ESPANOLESHOMBRES": -11,
+        "20:ESPANOLESMUJERES": 3,
+        "20:EXTRANJEROSHOMBRES": -131,
+        "20:EXTRANJEROSMUJERES": -169,
+        "21:ESPANOLESHOMBRES": -85,
+        "21:ESPANOLESMUJERES": -40,
+        "21:EXTRANJEROSHOMBRES": -111,
+        "21:EXTRANJEROSMUJERES": -157,
+        "22:ESPANOLESHOMBRES": -46,
+        "22:ESPANOLESMUJERES": -35,
+        "22:EXTRANJEROSHOMBRES": -126,
+        "22:EXTRANJEROSMUJERES": -186,
+        "23:ESPANOLESHOMBRES": -122,
+        "23:ESPANOLESMUJERES": -142,
+        "23:EXTRANJEROSHOMBRES": -213,
+        "23:EXTRANJEROSMUJERES": -274,
+        "24:ESPANOLESHOMBRES": -9,
+        "24:ESPANOLESMUJERES": -103,
+        "24:EXTRANJEROSHOMBRES": -148,
+        "24:EXTRANJEROSMUJERES": -278,
+        "25:ESPANOLESHOMBRES": -168,
+        "25:ESPANOLESMUJERES": -190,
+        "25:EXTRANJEROSHOMBRES": -218,
+        "25:EXTRANJEROSMUJERES": -328,
+        "26:ESPANOLESHOMBRES": -151,
+        "26:ESPANOLESMUJERES": -243,
+        "26:EXTRANJEROSHOMBRES": -205,
+        "26:EXTRANJEROSMUJERES": -270,
+        "27:ESPANOLESHOMBRES": -284,
+        "27:ESPANOLESMUJERES": -213,
+        "27:EXTRANJEROSHOMBRES": -254,
+        "27:EXTRANJEROSMUJERES": -305,
+        "28:ESPANOLESHOMBRES": -204,
+        "28:ESPANOLESMUJERES": -191,
+        "28:EXTRANJEROSHOMBRES": -217,
+        "28:EXTRANJEROSMUJERES": -322,
+        "29:ESPANOLESHOMBRES": -185,
+        "29:ESPANOLESMUJERES": -272,
+        "29:EXTRANJEROSHOMBRES": -201,
+        "29:EXTRANJEROSMUJERES": -297,
+        "30:ESPANOLESHOMBRES": -195,
+        "30:ESPANOLESMUJERES": -269,
+        "30:EXTRANJEROSHOMBRES": -307,
+        "30:EXTRANJEROSMUJERES": -355,
+        "31:ESPANOLESHOMBRES": -186,
+        "31:ESPANOLESMUJERES": -222,
+        "31:EXTRANJEROSHOMBRES": -236,
+        "31:EXTRANJEROSMUJERES": -354,
+        "32:ESPANOLESHOMBRES": -248,
+        "32:ESPANOLESMUJERES": -158,
+        "32:EXTRANJEROSHOMBRES": -258,
+        "32:EXTRANJEROSMUJERES": -244,
+        "33:ESPANOLESHOMBRES": -141,
+        "33:ESPANOLESMUJERES": -250,
+        "33:EXTRANJEROSHOMBRES": -212,
+        "33:EXTRANJEROSMUJERES": -320,
+        "34:ESPANOLESHOMBRES": -192,
+        "34:ESPANOLESMUJERES": -199,
+        "34:EXTRANJEROSHOMBRES": -209,
+        "34:EXTRANJEROSMUJERES": -274,
+        "35:ESPANOLESHOMBRES": -212,
+        "35:ESPANOLESMUJERES": -222,
+        "35:EXTRANJEROSHOMBRES": -229,
+        "35:EXTRANJEROSMUJERES": -273,
+        "36:ESPANOLESHOMBRES": -266,
+        "36:ESPANOLESMUJERES": -194,
+        "36:EXTRANJEROSHOMBRES": -197,
+        "36:EXTRANJEROSMUJERES": -208,
+        "37:ESPANOLESHOMBRES": -235,
+        "37:ESPANOLESMUJERES": -211,
+        "37:EXTRANJEROSHOMBRES": -240,
+        "37:EXTRANJEROSMUJERES": -264,
+        "38:ESPANOLESHOMBRES": -179,
+        "38:ESPANOLESMUJERES": -256,
+        "38:EXTRANJEROSHOMBRES": -267,
+        "38:EXTRANJEROSMUJERES": -322,
+        "39:ESPANOLESHOMBRES": -146,
+        "39:ESPANOLESMUJERES": -155,
+        "39:EXTRANJEROSHOMBRES": -186,
+        "39:EXTRANJEROSMUJERES": -188,
+        "40:ESPANOLESHOMBRES": -250,
+        "40:ESPANOLESMUJERES": -240,
+        "40:EXTRANJEROSHOMBRES": -213,
+        "40:EXTRANJEROSMUJERES": -241,
+        "41:ESPANOLESHOMBRES": -257,
+        "41:ESPANOLESMUJERES": -175,
+        "41:EXTRANJEROSHOMBRES": -145,
+        "41:EXTRANJEROSMUJERES": -224,
+        "42:ESPANOLESHOMBRES": -219,
+        "42:ESPANOLESMUJERES": -136,
+        "42:EXTRANJEROSHOMBRES": -186,
+        "42:EXTRANJEROSMUJERES": -215,
+        "43:ESPANOLESHOMBRES": -186,
+        "43:ESPANOLESMUJERES": -215,
+        "43:EXTRANJEROSHOMBRES": -139,
+        "43:EXTRANJEROSMUJERES": -217,
+        "44:ESPANOLESHOMBRES": -124,
+        "44:ESPANOLESMUJERES": -133,
+        "44:EXTRANJEROSHOMBRES": -201,
+        "44:EXTRANJEROSMUJERES": -177,
+        "45:ESPANOLESHOMBRES": -166,
+        "45:ESPANOLESMUJERES": -155,
+        "45:EXTRANJEROSHOMBRES": -71,
+        "45:EXTRANJEROSMUJERES": -190,
+        "46:ESPANOLESHOMBRES": -118,
+        "46:ESPANOLESMUJERES": -172,
+        "46:EXTRANJEROSHOMBRES": -147,
+        "46:EXTRANJEROSMUJERES": -161,
+        "47:ESPANOLESHOMBRES": -146,
+        "47:EXTRANJEROSHOMBRES": -116,
+        "47:EXTRANJEROSMUJERES": -139,
+        "48:ESPANOLESHOMBRES": 10,
+        "48:ESPANOLESMUJERES": -138,
+        "48:EXTRANJEROSHOMBRES": -123,
+        "48:EXTRANJEROSMUJERES": -135,
+        "49:ESPANOLESHOMBRES": -195,
+        "49:ESPANOLESMUJERES": -80,
+        "49:EXTRANJEROSHOMBRES": -138,
+        "49:EXTRANJEROSMUJERES": -148,
+        "50:ESPANOLESHOMBRES": -12,
+        "50:ESPANOLESMUJERES": -23,
+        "50:EXTRANJEROSHOMBRES": -76,
+        "50:EXTRANJEROSMUJERES": -127,
+        "51:ESPANOLESHOMBRES": -86,
+        "51:ESPANOLESMUJERES": -107,
+        "51:EXTRANJEROSHOMBRES": -80,
+        "51:EXTRANJEROSMUJERES": -91,
+        "52:ESPANOLESHOMBRES": -96,
+        "52:ESPANOLESMUJERES": -147,
+        "52:EXTRANJEROSHOMBRES": -86,
+        "52:EXTRANJEROSMUJERES": -156,
+        "53:ESPANOLESHOMBRES": -71,
+        "53:ESPANOLESMUJERES": -35,
+        "53:EXTRANJEROSHOMBRES": -87,
+        "53:EXTRANJEROSMUJERES": -92,
+        "54:ESPANOLESHOMBRES": 1,
+        "54:ESPANOLESMUJERES": -117,
+        "54:EXTRANJEROSHOMBRES": -20,
+        "54:EXTRANJEROSMUJERES": -109,
+        "55:ESPANOLESHOMBRES": -151,
+        "55:ESPANOLESMUJERES": -139,
+        "55:EXTRANJEROSHOMBRES": -70,
+        "55:EXTRANJEROSMUJERES": -86,
+        "56:ESPANOLESHOMBRES": -38,
+        "56:ESPANOLESMUJERES": -56,
+        "56:EXTRANJEROSHOMBRES": -41,
+        "56:EXTRANJEROSMUJERES": -121,
+        "57:ESPANOLESHOMBRES": -8,
+        "57:ESPANOLESMUJERES": 37,
+        "57:EXTRANJEROSHOMBRES": -21,
+        "57:EXTRANJEROSMUJERES": -63,
+        "58:ESPANOLESHOMBRES": -142,
+        "58:ESPANOLESMUJERES": -214,
+        "58:EXTRANJEROSHOMBRES": -49,
+        "58:EXTRANJEROSMUJERES": -88,
+        "59:ESPANOLESHOMBRES": 50,
+        "59:ESPANOLESMUJERES": 49,
+        "59:EXTRANJEROSHOMBRES": -28,
+        "59:EXTRANJEROSMUJERES": -53,
+        "60:ESPANOLESHOMBRES": -71,
+        "60:ESPANOLESMUJERES": -7,
+        "60:EXTRANJEROSHOMBRES": -61,
+        "60:EXTRANJEROSMUJERES": -102,
+        "61:ESPANOLESHOMBRES": -30,
+        "61:ESPANOLESMUJERES": 19,
+        "61:EXTRANJEROSHOMBRES": -16,
+        "61:EXTRANJEROSMUJERES": -32,
+        "62:ESPANOLESHOMBRES": -18,
+        "62:ESPANOLESMUJERES": -33,
+        "62:EXTRANJEROSHOMBRES": -46,
+        "62:EXTRANJEROSMUJERES": -80,
+        "63:ESPANOLESHOMBRES": 32,
+        "63:ESPANOLESMUJERES": -33,
+        "63:EXTRANJEROSHOMBRES": 6,
+        "63:EXTRANJEROSMUJERES": -53,
+        "64:ESPANOLESHOMBRES": 14,
+        "64:ESPANOLESMUJERES": 28,
+        "64:EXTRANJEROSHOMBRES": -47,
+        "64:EXTRANJEROSMUJERES": -27,
+        "65:ESPANOLESHOMBRES": 42,
+        "65:ESPANOLESMUJERES": 15,
+        "65:EXTRANJEROSHOMBRES": -18,
+        "65:EXTRANJEROSMUJERES": -48,
+        "66:ESPANOLESHOMBRES": -28,
+        "66:ESPANOLESMUJERES": 17,
+        "66:EXTRANJEROSHOMBRES": -30,
+        "66:EXTRANJEROSMUJERES": -34,
+        "67:ESPANOLESHOMBRES": -51,
+        "67:ESPANOLESMUJERES": -60,
+        "67:EXTRANJEROSHOMBRES": -4,
+        "67:EXTRANJEROSMUJERES": -31,
+        "68:ESPANOLESHOMBRES": -33,
+        "68:ESPANOLESMUJERES": 1,
+        "68:EXTRANJEROSHOMBRES": -10,
+        "68:EXTRANJEROSMUJERES": -35,
+        "69:ESPANOLESHOMBRES": 19,
+        "69:ESPANOLESMUJERES": -27,
+        "69:EXTRANJEROSHOMBRES": -3,
+        "69:EXTRANJEROSMUJERES": 3,
+        "70:ESPANOLESHOMBRES": -119,
+        "70:ESPANOLESMUJERES": -39,
+        "70:EXTRANJEROSHOMBRES": -31,
+        "70:EXTRANJEROSMUJERES": -49,
+        "71:ESPANOLESHOMBRES": -69,
+        "71:ESPANOLESMUJERES": -167,
+        "71:EXTRANJEROSHOMBRES": 2,
+        "71:EXTRANJEROSMUJERES": 1,
+        "72:ESPANOLESHOMBRES": -135,
+        "72:ESPANOLESMUJERES": -72,
+        "72:EXTRANJEROSHOMBRES": -1,
+        "72:EXTRANJEROSMUJERES": -12,
+        "73:ESPANOLESHOMBRES": 212,
+        "73:ESPANOLESMUJERES": 176,
+        "73:EXTRANJEROSHOMBRES": -1,
+        "73:EXTRANJEROSMUJERES": -13,
+        "74:ESPANOLESHOMBRES": -128,
+        "74:ESPANOLESMUJERES": -190,
+        "74:EXTRANJEROSHOMBRES": -19,
+        "74:EXTRANJEROSMUJERES": -12,
+        "75:ESPANOLESHOMBRES": -64,
+        "75:ESPANOLESMUJERES": -89,
+        "75:EXTRANJEROSHOMBRES": 3,
+        "75:EXTRANJEROSMUJERES": 11,
+        "76:ESPANOLESHOMBRES": -57,
+        "76:ESPANOLESMUJERES": 112,
+        "76:EXTRANJEROSHOMBRES": 5,
+        "76:EXTRANJEROSMUJERES": -11,
+        "77:ESPANOLESHOMBRES": 71,
+        "77:ESPANOLESMUJERES": 23,
+        "77:EXTRANJEROSMUJERES": -15,
+        "78:ESPANOLESHOMBRES": 77,
+        "78:ESPANOLESMUJERES": 242,
+        "78:EXTRANJEROSHOMBRES": -11,
+        "78:EXTRANJEROSMUJERES": -11,
+        "79:ESPANOLESHOMBRES": -81,
+        "79:ESPANOLESMUJERES": -256,
+        "79:EXTRANJEROSHOMBRES": -1,
+        "79:EXTRANJEROSMUJERES": -10,
+        "80:ESPANOLESHOMBRES": -166,
+        "80:ESPANOLESMUJERES": -284,
+        "80:EXTRANJEROSHOMBRES": -13,
+        "80:EXTRANJEROSMUJERES": -4,
+        "81:ESPANOLESHOMBRES": 224,
+        "81:ESPANOLESMUJERES": 395,
+        "81:EXTRANJEROSHOMBRES": 10,
+        "81:EXTRANJEROSMUJERES": -5,
+        "82:ESPANOLESHOMBRES": -96,
+        "82:ESPANOLESMUJERES": -166,
+        "82:EXTRANJEROSHOMBRES": -3,
+        "82:EXTRANJEROSMUJERES": -3,
+        "83:ESPANOLESHOMBRES": 20,
+        "83:ESPANOLESMUJERES": -109,
+        "83:EXTRANJEROSHOMBRES": -5,
+        "83:EXTRANJEROSMUJERES": -6,
+        "84:ESPANOLESHOMBRES": -92,
+        "84:ESPANOLESMUJERES": -62,
+        "84:EXTRANJEROSHOMBRES": -9,
+        "84:EXTRANJEROSMUJERES": -8,
+        "85:ESPANOLESHOMBRES": -11,
+        "85:ESPANOLESMUJERES": 40,
+        "85:EXTRANJEROSHOMBRES": 1,
+        "85:EXTRANJEROSMUJERES": 1,
+        "86:ESPANOLESHOMBRES": -51,
+        "86:ESPANOLESMUJERES": -110,
+        "86:EXTRANJEROSHOMBRES": 7,
+        "86:EXTRANJEROSMUJERES": -5,
+        "87:ESPANOLESHOMBRES": 1,
+        "87:ESPANOLESMUJERES": -36,
+        "87:EXTRANJEROSHOMBRES": -4,
+        "87:EXTRANJEROSMUJERES": 9,
+        "88:ESPANOLESHOMBRES": -42,
+        "88:ESPANOLESMUJERES": 42,
+        "88:EXTRANJEROSMUJERES": -1,
+        "89:ESPANOLESHOMBRES": 33,
+        "89:ESPANOLESMUJERES": 7,
+        "89:EXTRANJEROSHOMBRES": -3,
+        "90:ESPANOLESHOMBRES": 27,
+        "90:ESPANOLESMUJERES": 57,
+        "90:EXTRANJEROSHOMBRES": -1,
+        "90:EXTRANJEROSMUJERES": -1,
+        "91:ESPANOLESHOMBRES": -23,
+        "91:ESPANOLESMUJERES": 29,
+        "91:EXTRANJEROSHOMBRES": 3,
+        "91:EXTRANJEROSMUJERES": -7,
+        "92:ESPANOLESHOMBRES": -10,
+        "92:ESPANOLESMUJERES": -5,
+        "92:EXTRANJEROSMUJERES": 4,
+        "93:ESPANOLESHOMBRES": 25,
+        "93:ESPANOLESMUJERES": 13,
+        "93:EXTRANJEROSHOMBRES": -1,
+        "93:EXTRANJEROSMUJERES": 3,
+        "94:ESPANOLESHOMBRES": 21,
+        "94:ESPANOLESMUJERES": 30,
+        "94:EXTRANJEROSHOMBRES": 2,
+        "94:EXTRANJEROSMUJERES": -2,
+        "95:ESPANOLESHOMBRES": -2,
+        "95:ESPANOLESMUJERES": 1,
+        "95:EXTRANJEROSHOMBRES": -4,
+        "95:EXTRANJEROSMUJERES": 1,
+        "96:ESPANOLESHOMBRES": 2,
+        "96:ESPANOLESMUJERES": 11,
+        "96:EXTRANJEROSHOMBRES": 1,
+        "96:EXTRANJEROSMUJERES": 2,
+        "97:ESPANOLESHOMBRES": -9,
+        "97:ESPANOLESMUJERES": 20,
+        "97:EXTRANJEROSHOMBRES": -2,
+        "97:EXTRANJEROSMUJERES": -1,
+        "98:ESPANOLESHOMBRES": 4,
+        "98:ESPANOLESMUJERES": -23,
+        "98:EXTRANJEROSHOMBRES": -1,
+        "98:EXTRANJEROSMUJERES": 1,
+        "99:ESPANOLESHOMBRES": -3,
+        "99:ESPANOLESMUJERES": 15,
+        "99:EXTRANJEROSHOMBRES": 1
+      },
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": -7897,
+        "ESPANOLESMUJERES": -8014,
+        "EXTRANJEROSHOMBRES": -8006,
+        "EXTRANJEROSMUJERES": -10253
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "bd0f420ca8abf3e0bd342b8977fa86752b275fe635d2360cbfd83470e3a2bc0b",
+      "total_control_sha256": "9df1105e026b6483b3165eaa7743560c6f8f97893c63d0a51be186f2f39617a8",
+      "unmapped_known_population": 0,
+      "policy": "unknown_null; raw known sums are diagnostics only",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false,
+      "analytical_city_source": "Explicit monthly bank city age/sex/nationality counts; raw file excluded from this year model",
+      "analytical_city_stock": 3327119
+    },
+    {
+      "source_id": "padron_january_2022",
+      "source_sha256": "23cf9c7fba8059282ca738b160ce75e5724049d791a6cc6af111f2b544e66031",
+      "year": 2022,
+      "rows": 238221,
+      "known_total": 3296033,
+      "modelled_observed_stock": 3296032,
+      "invalid_age_known_population": 1,
+      "conditionally_inferred_blank_cells": 279395,
+      "raw_blank_cells": 279395,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "10e01945e6cd580eb1ccae0386469249b71613a234c763a54702c5fa7951e0de",
+      "total_control_sha256": "ef81cd891a777648e65797a366df7b3c186d5be92c5769b7e6bc9bb68ee041b0",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2023",
+      "source_sha256": "b7bf4192e49e96388e8769a551e3525d45cabcdb8d9a2929b7459e7234fdf0dc",
+      "year": 2023,
+      "rows": 238497,
+      "known_total": 3352448,
+      "modelled_observed_stock": 3352448,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 0,
+      "raw_blank_cells": 0,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "4dcea2428f49956b1c0e77768cade417c9ea151ffa08ca2c0b29398457c91f9f",
+      "total_control_sha256": "3890d3b3a9370c75c0dab7ce1be524fe310e90ba87fe2127fa50d82dedc1a653",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2024",
+      "source_sha256": "58d42bbe86c035ab525606b6d42628df5863e0625d8dd7d650203008cf730bd0",
+      "year": 2024,
+      "rows": 239074,
+      "known_total": 3473648,
+      "modelled_observed_stock": 3473648,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 0,
+      "raw_blank_cells": 0,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "03a5180c642b9778970e9c75ed0f6c4c75654d8a888ca01a54130383a6031cc5",
+      "total_control_sha256": "21197b36bb449819b2195fde5615912215a76ccbd14a359438d2eccdedcd1242",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2025",
+      "source_sha256": "65cded5a78c87f63d32c6b8860f061f58a4453bea87e747e849e0883d74b569a",
+      "year": 2025,
+      "rows": 240632,
+      "known_total": 3540364,
+      "modelled_observed_stock": 3540364,
+      "invalid_age_known_population": 0,
+      "conditionally_inferred_blank_cells": 0,
+      "raw_blank_cells": 0,
+      "monthly_controls_matched": true,
+      "age_control_differences": {},
+      "full_total_differences": {
+        "ESPANOLESHOMBRES": 0,
+        "ESPANOLESMUJERES": 0,
+        "EXTRANJEROSHOMBRES": 0,
+        "EXTRANJEROSMUJERES": 0
+      },
+      "age_control_cells": 400,
+      "age_control_sha256": "95fd28d40da921aed5a14fc6785d34b051a29f5d401384262c1a2ac72774d995",
+      "total_control_sha256": "54fe3f8722fb1ae0173e6d075080de845d8780f0d907c24ffff5dd1a5550350a",
+      "unmapped_known_population": 0,
+      "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+      "assumptions": [
+        "same complete population universe",
+        "nonnegative counts",
+        "known cells correct and no compensating source errors"
+      ],
+      "production_ready": false
+    }
+  ],
+  "independent_survival": {
+    "2015-2025": {
+      "passed": true,
+      "cells": 360,
+      "formulation": "40-digit Decimal annual population propagation using published lx ratios, independently of qx survival helper",
+      "maximum_cell_difference": 5.068484097137116e-05,
+      "total_expected_qx": 2827032.4048431045,
+      "total_expected_lx": 2827032.4048252925,
+      "total_rounding_bound": 0.01591917018046899,
+      "publication_rounding_qx_per_mille": 1e-06,
+      "publication_rounding_lx": 1e-06
+    },
+    "2014-2024": {
+      "passed": true,
+      "cells": 360,
+      "formulation": "40-digit Decimal annual population propagation using published lx ratios, independently of qx survival helper",
+      "maximum_cell_difference": 4.784206612384878e-05,
+      "total_expected_qx": 2854624.8816942866,
+      "total_expected_lx": 2854624.8815346747,
+      "total_rounding_bound": 0.016067448291411147,
+      "publication_rounding_qx_per_mille": 1e-06,
+      "publication_rounding_lx": 1e-06
+    }
+  },
+  "sensitivities": [
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under90",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 90,
+      "expected": 2767820.4271947485,
+      "actual": 3215476.0,
+      "residual": 447655.57280525146,
+      "residual_per_1000": 161.7357717310299,
+      "expected_difference": -59211.977648356464
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under95",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 95,
+      "expected": 2813585.7813153793,
+      "actual": 3262065.0,
+      "residual": 448479.2186846207,
+      "residual_per_1000": 159.3977413672286,
+      "expected_difference": -13446.623527725693
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under100",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 100,
+      "expected": 2827032.404843105,
+      "actual": 3275658.0,
+      "residual": 448625.595156895,
+      "residual_per_1000": 158.69135224213775,
+      "expected_difference": 0.0
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_half_age_under100",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 100,
+      "expected": 2814985.2690043063,
+      "actual": 3275658.0,
+      "residual": 460672.7309956937,
+      "residual_per_1000": 163.6501391563726,
+      "expected_difference": -12047.135838798713
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_lx_under100",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 100,
+      "expected": 2827032.4048252925,
+      "actual": 3275658.0,
+      "residual": 448625.5951747075,
+      "residual_per_1000": 158.6913522494384,
+      "expected_difference": -1.7812475562095642e-05
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "Madrid_closed_band_approximation_under95",
+      "start_year": 2015,
+      "end_year": 2025,
+      "terminal_age": 95,
+      "expected": 2838073.9057751284,
+      "actual": 3262065.0,
+      "residual": 423991.0942248716,
+      "residual_per_1000": 149.39395812142251,
+      "expected_difference": 11041.500932023395
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under90",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 90,
+      "expected": 2797219.4412626317,
+      "actual": 3150151.0,
+      "residual": 352931.5587373683,
+      "residual_per_1000": 126.17228149181575,
+      "expected_difference": -57405.44043165492
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under95",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 95,
+      "expected": 2841967.9859805577,
+      "actual": 3195405.0,
+      "residual": 353437.01401944226,
+      "residual_per_1000": 124.36347480441329,
+      "expected_difference": -12656.895713728853
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_endpoint_under100",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 100,
+      "expected": 2854624.8816942866,
+      "actual": 3207983.0,
+      "residual": 353358.1183057134,
+      "residual_per_1000": 123.78443156285638,
+      "expected_difference": 0.0
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_half_age_under100",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 100,
+      "expected": 2842542.1955550048,
+      "actual": 3207983.0,
+      "residual": 365440.80444499524,
+      "residual_per_1000": 128.56125936017744,
+      "expected_difference": -12082.68613928184
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "national_lx_under100",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 100,
+      "expected": 2854624.8815346747,
+      "actual": 3207983.0,
+      "residual": 353358.11846532533,
+      "residual_per_1000": 123.78443162569106,
+      "expected_difference": -0.00015961192548274994
+    },
+    {
+      "area_id": "MAD",
+      "scenario": "Madrid_closed_band_approximation_under95",
+      "start_year": 2014,
+      "end_year": 2024,
+      "terminal_age": 95,
+      "expected": 2865779.86592692,
+      "actual": 3195405.0,
+      "residual": 329625.13407308003,
+      "residual_per_1000": 115.02109355718592,
+      "expected_difference": 11154.984232633375
+    }
+  ],
+  "intermediate_years": [
+    {
+      "endpoint_year": 2016,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 1,
+      "endpoint_max_age": 90,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 3085989.595694424,
+      "actual": 3116241.0,
+      "residual": 30251.40430557588,
+      "observed_change": 6540.0,
+      "modelled_deaths": 23711.40430557588,
+      "residual_per_1000": 9.80282122395444,
+      "annualised_residual_per_1000": 9.80282122395444,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 26247.0,
+      "observed_terminal": 32457.0
+    },
+    {
+      "endpoint_year": 2017,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 2,
+      "endpoint_max_age": 91,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 3062020.7939052368,
+      "actual": 3109084.0,
+      "residual": 47063.20609476324,
+      "observed_change": -617.0,
+      "modelled_deaths": 47680.20609476324,
+      "residual_per_1000": 15.369982525409249,
+      "annualised_residual_per_1000": 7.684991262704624,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 55939.0,
+      "observed_terminal": 26094.0
+    },
+    {
+      "endpoint_year": 2018,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 3,
+      "endpoint_max_age": 92,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 3036343.616301635,
+      "actual": 3126292.0,
+      "residual": 89948.38369836519,
+      "observed_change": 16591.0,
+      "modelled_deaths": 73357.38369836519,
+      "residual_per_1000": 29.623914505409385,
+      "annualised_residual_per_1000": 9.874638168469795,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 84364.0,
+      "observed_terminal": 20406.0
+    },
+    {
+      "endpoint_year": 2019,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 4,
+      "endpoint_max_age": 93,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 3009532.4838582757,
+      "actual": 3148020.0,
+      "residual": 138487.5161417243,
+      "observed_change": 38319.0,
+      "modelled_deaths": 100168.5161417243,
+      "residual_per_1000": 46.01628887028353,
+      "annualised_residual_per_1000": 11.504072217570883,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 111328.0,
+      "observed_terminal": 15847.0
+    },
+    {
+      "endpoint_year": 2020,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 5,
+      "endpoint_max_age": 94,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2982500.8778504003,
+      "actual": 3194837.0,
+      "residual": 212336.12214959972,
+      "observed_change": 85136.0,
+      "modelled_deaths": 127200.12214959972,
+      "residual_per_1000": 71.19398479528304,
+      "annualised_residual_per_1000": 14.238796959056609,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 138846.0,
+      "observed_terminal": 12211.0
+    },
+    {
+      "endpoint_year": 2021,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 6,
+      "endpoint_max_age": 95,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2949673.007995141,
+      "actual": 3157725.0,
+      "residual": 208051.9920048588,
+      "observed_change": 48024.0,
+      "modelled_deaths": 160027.9920048588,
+      "residual_per_1000": 70.53391729894471,
+      "annualised_residual_per_1000": 11.755652883157452,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 160884.0,
+      "observed_terminal": 8510.0
+    },
+    {
+      "endpoint_year": 2022,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 7,
+      "endpoint_max_age": 96,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2919165.964505163,
+      "actual": 3110181.0,
+      "residual": 191015.03549483698,
+      "observed_change": 480.0,
+      "modelled_deaths": 190535.03549483698,
+      "residual_per_1000": 65.43479809556376,
+      "annualised_residual_per_1000": 9.347828299366252,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 179614.0,
+      "observed_terminal": 6237.0
+    },
+    {
+      "endpoint_year": 2023,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 8,
+      "endpoint_max_age": 97,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2887435.998465804,
+      "actual": 3144355.0,
+      "residual": 256919.00153419608,
+      "observed_change": 34654.0,
+      "modelled_deaths": 222265.00153419608,
+      "residual_per_1000": 88.97824979348674,
+      "annualised_residual_per_1000": 11.122281224185842,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 203703.0,
+      "observed_terminal": 4390.0
+    },
+    {
+      "endpoint_year": 2024,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 9,
+      "endpoint_max_age": 98,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2857330.440520315,
+      "actual": 3236410.0,
+      "residual": 379079.55947968503,
+      "observed_change": 126709.0,
+      "modelled_deaths": 252370.55947968503,
+      "residual_per_1000": 132.66913553430498,
+      "annualised_residual_per_1000": 14.741015059367221,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 234096.0,
+      "observed_terminal": 3142.0
+    },
+    {
+      "endpoint_year": 2025,
+      "baseline_ages": "0–89 fixed across endpoints",
+      "endpoint_min_age": 10,
+      "endpoint_max_age": 99,
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2827032.404843105,
+      "actual": 3275658.0,
+      "residual": 448625.595156895,
+      "observed_change": 165957.0,
+      "modelled_deaths": 282668.595156895,
+      "residual_per_1000": 158.69135224213775,
+      "annualised_residual_per_1000": 15.869135224213775,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 262476.0,
+      "observed_terminal": 2230.0
+    }
+  ],
+  "city_windows": {
+    "2015-2025": {
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109701.0,
+      "expected": 2827032.404843105,
+      "actual": 3275658.0,
+      "residual": 448625.595156895,
+      "observed_change": 165957.0,
+      "modelled_deaths": 282668.595156895,
+      "residual_per_1000": 158.69135224213775,
+      "annualised_residual_per_1000": 15.869135224213775,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 262476.0,
+      "observed_terminal": 2230.0
+    },
+    "2014-2024": {
+      "id": "MAD",
+      "name": "Madrid · toda la ciudad",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "unchanged",
+      "boundary_method": "city_total_without_spatial_allocation",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3138522.0,
+      "expected": 2854624.8816942866,
+      "actual": 3207983.0,
+      "residual": 353358.1183057134,
+      "observed_change": 69461.0,
+      "modelled_deaths": 283897.1183057134,
+      "residual_per_1000": 123.78443156285638,
+      "annualised_residual_per_1000": 12.378443156285638,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 263587.0,
+      "observed_terminal": 2078.0
+    }
+  },
+  "Madrid_sensitivity": {
+    "closed_bands": 440,
+    "method": "national single-age hazard pattern scaled so each closed-band product matches Madrid nqx",
+    "approximation": true,
+    "maximum_endpoint_age": 94,
+    "open_groups_not_expanded": true
+  },
+  "spatial": {
+    "summary": {
+      "id": "MAD-MAPPED",
+      "name": "Madrid · secciones cartografiadas",
+      "level": "city",
+      "parent_id": null,
+      "boundary_status": "exact_harmonisation",
+      "boundary_method": "research_common_section_unions",
+      "affected_share": 0.0,
+      "reliability_note": "Agregación exacta; revisar auditoría de límites",
+      "baseline": 3109689.0,
+      "expected": 2827020.9725018987,
+      "actual": 3275653.0,
+      "residual": 448632.02749810135,
+      "observed_change": 165964.0,
+      "modelled_deaths": 282668.02749810135,
+      "residual_per_1000": 158.69426928979036,
+      "annualised_residual_per_1000": 15.869426928979035,
+      "rate_suppressed": false,
+      "default_visible": true,
+      "observed_under_interval": 262476.0,
+      "observed_terminal": 2230.0
+    },
+    "area_counts": {
+      "city": 1,
+      "district": 20,
+      "barrio": 123,
+      "section": 2343
+    },
+    "annual_accounting": {
+      "2015": {
+        "source_id": "padron_january_2015",
+        "source_sha256": "d85d882dba32bfe79e5f520f14818b4ec31d4bf2dd4ef26e337df77cb439b65d",
+        "year": 2015,
+        "rows": 232993,
+        "known_total": 3149663,
+        "modelled_observed_stock": 3149662,
+        "invalid_age_known_population": 1,
+        "conditionally_inferred_blank_cells": 304657,
+        "raw_blank_cells": 304657,
+        "monthly_controls_matched": true,
+        "age_control_differences": {},
+        "full_total_differences": {
+          "ESPANOLESHOMBRES": 0,
+          "ESPANOLESMUJERES": 0,
+          "EXTRANJEROSHOMBRES": 0,
+          "EXTRANJEROSMUJERES": 0
+        },
+        "age_control_cells": 400,
+        "age_control_sha256": "d3e33a729eb857076b879598d502dcc0f29162cf34cb0a3b0d414e11bc56fbd5",
+        "total_control_sha256": "d7e985169b40604696a7e381d5033db63c7a02ce4577a6e92d8b628db34329fb",
+        "unmapped_known_population": 12,
+        "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+        "assumptions": [
+          "same complete population universe",
+          "nonnegative counts",
+          "known cells correct and no compensating source errors"
+        ],
+        "production_ready": false
+      },
+      "2025": {
+        "source_id": "padron_january_2025",
+        "source_sha256": "65cded5a78c87f63d32c6b8860f061f58a4453bea87e747e849e0883d74b569a",
+        "year": 2025,
+        "rows": 240632,
+        "known_total": 3540364,
+        "modelled_observed_stock": 3540364,
+        "invalid_age_known_population": 0,
+        "conditionally_inferred_blank_cells": 0,
+        "raw_blank_cells": 0,
+        "monthly_controls_matched": true,
+        "age_control_differences": {},
+        "full_total_differences": {
+          "ESPANOLESHOMBRES": 0,
+          "ESPANOLESMUJERES": 0,
+          "EXTRANJEROSHOMBRES": 0,
+          "EXTRANJEROSMUJERES": 0
+        },
+        "age_control_cells": 400,
+        "age_control_sha256": "95fd28d40da921aed5a14fc6785d34b051a29f5d401384262c1a2ac72774d995",
+        "total_control_sha256": "54fe3f8722fb1ae0173e6d075080de845d8780f0d907c24ffff5dd1a5550350a",
+        "unmapped_known_population": 5,
+        "policy": "conditional_zero_matching_exhaustive_monthly_controls; raw inputs unchanged",
+        "assumptions": [
+          "same complete population universe",
+          "nonnegative counts",
+          "known cells correct and no compensating source errors"
+        ],
+        "production_ready": false
+      }
+    },
+    "common_parent_groups": [
+      {
+        "id": "D-01",
+        "vintage_codes": [
+          [
+            2015,
+            "01"
+          ],
+          [
+            2025,
+            "01"
+          ]
+        ],
+        "raw_codes": [
+          "01"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 107,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-02",
+        "vintage_codes": [
+          [
+            2015,
+            "02"
+          ],
+          [
+            2025,
+            "02"
+          ]
+        ],
+        "raw_codes": [
+          "02"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 107,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-03",
+        "vintage_codes": [
+          [
+            2015,
+            "03"
+          ],
+          [
+            2025,
+            "03"
+          ]
+        ],
+        "raw_codes": [
+          "03"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 91,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-04",
+        "vintage_codes": [
+          [
+            2015,
+            "04"
+          ],
+          [
+            2025,
+            "04"
+          ]
+        ],
+        "raw_codes": [
+          "04"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 123,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-05",
+        "vintage_codes": [
+          [
+            2015,
+            "05"
+          ],
+          [
+            2025,
+            "05"
+          ]
+        ],
+        "raw_codes": [
+          "05"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 99,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-06",
+        "vintage_codes": [
+          [
+            2015,
+            "06"
+          ],
+          [
+            2025,
+            "06"
+          ]
+        ],
+        "raw_codes": [
+          "06"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 117,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-07",
+        "vintage_codes": [
+          [
+            2015,
+            "07"
+          ],
+          [
+            2025,
+            "07"
+          ]
+        ],
+        "raw_codes": [
+          "07"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 121,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-08",
+        "vintage_codes": [
+          [
+            2015,
+            "08"
+          ],
+          [
+            2025,
+            "08"
+          ]
+        ],
+        "raw_codes": [
+          "08"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 172,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-09",
+        "vintage_codes": [
+          [
+            2015,
+            "09"
+          ],
+          [
+            2025,
+            "09"
+          ]
+        ],
+        "raw_codes": [
+          "09"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 83,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-10",
+        "vintage_codes": [
+          [
+            2015,
+            "10"
+          ],
+          [
+            2025,
+            "10"
+          ]
+        ],
+        "raw_codes": [
+          "10"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 194,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-11",
+        "vintage_codes": [
+          [
+            2015,
+            "11"
+          ],
+          [
+            2025,
+            "11"
+          ]
+        ],
+        "raw_codes": [
+          "11"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 175,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-12",
+        "vintage_codes": [
+          [
+            2015,
+            "12"
+          ],
+          [
+            2025,
+            "12"
+          ]
+        ],
+        "raw_codes": [
+          "12"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 92,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-13",
+        "vintage_codes": [
+          [
+            2015,
+            "13"
+          ],
+          [
+            2025,
+            "13"
+          ]
+        ],
+        "raw_codes": [
+          "13"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 173,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-14",
+        "vintage_codes": [
+          [
+            2015,
+            "14"
+          ],
+          [
+            2025,
+            "14"
+          ]
+        ],
+        "raw_codes": [
+          "14"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 81,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-15",
+        "vintage_codes": [
+          [
+            2015,
+            "15"
+          ],
+          [
+            2025,
+            "15"
+          ]
+        ],
+        "raw_codes": [
+          "15"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 168,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-16+21",
+        "vintage_codes": [
+          [
+            2015,
+            "16"
+          ],
+          [
+            2015,
+            "21"
+          ],
+          [
+            2025,
+            "16"
+          ],
+          [
+            2025,
+            "21"
+          ]
+        ],
+        "raw_codes": [
+          "16",
+          "21"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 137,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-17",
+        "vintage_codes": [
+          [
+            2015,
+            "17"
+          ],
+          [
+            2025,
+            "17"
+          ]
+        ],
+        "raw_codes": [
+          "17"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 103,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-18",
+        "vintage_codes": [
+          [
+            2015,
+            "18"
+          ],
+          [
+            2025,
+            "18"
+          ]
+        ],
+        "raw_codes": [
+          "18"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 55,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-19",
+        "vintage_codes": [
+          [
+            2015,
+            "19"
+          ],
+          [
+            2025,
+            "19"
+          ]
+        ],
+        "raw_codes": [
+          "19"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 41,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "D-20",
+        "vintage_codes": [
+          [
+            2015,
+            "20"
+          ],
+          [
+            2025,
+            "20"
+          ]
+        ],
+        "raw_codes": [
+          "20"
+        ],
+        "level": "district",
+        "parent_id": "MAD-MAPPED",
+        "zones": 104,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0101",
+        "vintage_codes": [
+          [
+            2015,
+            "0101"
+          ],
+          [
+            2025,
+            "0101"
+          ]
+        ],
+        "raw_codes": [
+          "0101"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0102",
+        "vintage_codes": [
+          [
+            2015,
+            "0102"
+          ],
+          [
+            2025,
+            "0102"
+          ]
+        ],
+        "raw_codes": [
+          "0102"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 36,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0103",
+        "vintage_codes": [
+          [
+            2015,
+            "0103"
+          ],
+          [
+            2025,
+            "0103"
+          ]
+        ],
+        "raw_codes": [
+          "0103"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0104",
+        "vintage_codes": [
+          [
+            2015,
+            "0104"
+          ],
+          [
+            2025,
+            "0104"
+          ]
+        ],
+        "raw_codes": [
+          "0104"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 12,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0105",
+        "vintage_codes": [
+          [
+            2015,
+            "0105"
+          ],
+          [
+            2025,
+            "0105"
+          ]
+        ],
+        "raw_codes": [
+          "0105"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 27,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0106",
+        "vintage_codes": [
+          [
+            2015,
+            "0106"
+          ],
+          [
+            2025,
+            "0106"
+          ]
+        ],
+        "raw_codes": [
+          "0106"
+        ],
+        "level": "barrio",
+        "parent_id": "D-01",
+        "zones": 4,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0201",
+        "vintage_codes": [
+          [
+            2015,
+            "0201"
+          ],
+          [
+            2025,
+            "0201"
+          ]
+        ],
+        "raw_codes": [
+          "0201"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0202",
+        "vintage_codes": [
+          [
+            2015,
+            "0202"
+          ],
+          [
+            2025,
+            "0202"
+          ]
+        ],
+        "raw_codes": [
+          "0202"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 27,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0203",
+        "vintage_codes": [
+          [
+            2015,
+            "0203"
+          ],
+          [
+            2025,
+            "0203"
+          ]
+        ],
+        "raw_codes": [
+          "0203"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 16,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0204",
+        "vintage_codes": [
+          [
+            2015,
+            "0204"
+          ],
+          [
+            2025,
+            "0204"
+          ]
+        ],
+        "raw_codes": [
+          "0204"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 10,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0205",
+        "vintage_codes": [
+          [
+            2015,
+            "0205"
+          ],
+          [
+            2025,
+            "0205"
+          ]
+        ],
+        "raw_codes": [
+          "0205"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0206",
+        "vintage_codes": [
+          [
+            2015,
+            "0206"
+          ],
+          [
+            2025,
+            "0206"
+          ]
+        ],
+        "raw_codes": [
+          "0206"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0207",
+        "vintage_codes": [
+          [
+            2015,
+            "0207"
+          ],
+          [
+            2025,
+            "0207"
+          ]
+        ],
+        "raw_codes": [
+          "0207"
+        ],
+        "level": "barrio",
+        "parent_id": "D-02",
+        "zones": 1,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0301",
+        "vintage_codes": [
+          [
+            2015,
+            "0301"
+          ],
+          [
+            2025,
+            "0301"
+          ]
+        ],
+        "raw_codes": [
+          "0301"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0302",
+        "vintage_codes": [
+          [
+            2015,
+            "0302"
+          ],
+          [
+            2025,
+            "0302"
+          ]
+        ],
+        "raw_codes": [
+          "0302"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0303",
+        "vintage_codes": [
+          [
+            2015,
+            "0303"
+          ],
+          [
+            2025,
+            "0303"
+          ]
+        ],
+        "raw_codes": [
+          "0303"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 20,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0304",
+        "vintage_codes": [
+          [
+            2015,
+            "0304"
+          ],
+          [
+            2025,
+            "0304"
+          ]
+        ],
+        "raw_codes": [
+          "0304"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 19,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0305",
+        "vintage_codes": [
+          [
+            2015,
+            "0305"
+          ],
+          [
+            2025,
+            "0305"
+          ]
+        ],
+        "raw_codes": [
+          "0305"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 5,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0306",
+        "vintage_codes": [
+          [
+            2015,
+            "0306"
+          ],
+          [
+            2025,
+            "0306"
+          ]
+        ],
+        "raw_codes": [
+          "0306"
+        ],
+        "level": "barrio",
+        "parent_id": "D-03",
+        "zones": 10,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0401",
+        "vintage_codes": [
+          [
+            2015,
+            "0401"
+          ],
+          [
+            2025,
+            "0401"
+          ]
+        ],
+        "raw_codes": [
+          "0401"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0402",
+        "vintage_codes": [
+          [
+            2015,
+            "0402"
+          ],
+          [
+            2025,
+            "0402"
+          ]
+        ],
+        "raw_codes": [
+          "0402"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 27,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0403",
+        "vintage_codes": [
+          [
+            2015,
+            "0403"
+          ],
+          [
+            2025,
+            "0403"
+          ]
+        ],
+        "raw_codes": [
+          "0403"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0404",
+        "vintage_codes": [
+          [
+            2015,
+            "0404"
+          ],
+          [
+            2025,
+            "0404"
+          ]
+        ],
+        "raw_codes": [
+          "0404"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 33,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0405",
+        "vintage_codes": [
+          [
+            2015,
+            "0405"
+          ],
+          [
+            2025,
+            "0405"
+          ]
+        ],
+        "raw_codes": [
+          "0405"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0406",
+        "vintage_codes": [
+          [
+            2015,
+            "0406"
+          ],
+          [
+            2025,
+            "0406"
+          ]
+        ],
+        "raw_codes": [
+          "0406"
+        ],
+        "level": "barrio",
+        "parent_id": "D-04",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0501",
+        "vintage_codes": [
+          [
+            2015,
+            "0501"
+          ],
+          [
+            2025,
+            "0501"
+          ]
+        ],
+        "raw_codes": [
+          "0501"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 13,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0502",
+        "vintage_codes": [
+          [
+            2015,
+            "0502"
+          ],
+          [
+            2025,
+            "0502"
+          ]
+        ],
+        "raw_codes": [
+          "0502"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 27,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0503",
+        "vintage_codes": [
+          [
+            2015,
+            "0503"
+          ],
+          [
+            2025,
+            "0503"
+          ]
+        ],
+        "raw_codes": [
+          "0503"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 13,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0504",
+        "vintage_codes": [
+          [
+            2015,
+            "0504"
+          ],
+          [
+            2025,
+            "0504"
+          ]
+        ],
+        "raw_codes": [
+          "0504"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 21,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0505",
+        "vintage_codes": [
+          [
+            2015,
+            "0505"
+          ],
+          [
+            2025,
+            "0505"
+          ]
+        ],
+        "raw_codes": [
+          "0505"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0506",
+        "vintage_codes": [
+          [
+            2015,
+            "0506"
+          ],
+          [
+            2025,
+            "0506"
+          ]
+        ],
+        "raw_codes": [
+          "0506"
+        ],
+        "level": "barrio",
+        "parent_id": "D-05",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0601",
+        "vintage_codes": [
+          [
+            2015,
+            "0601"
+          ],
+          [
+            2025,
+            "0601"
+          ]
+        ],
+        "raw_codes": [
+          "0601"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 22,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0602",
+        "vintage_codes": [
+          [
+            2015,
+            "0602"
+          ],
+          [
+            2025,
+            "0602"
+          ]
+        ],
+        "raw_codes": [
+          "0602"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 29,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0603",
+        "vintage_codes": [
+          [
+            2015,
+            "0603"
+          ],
+          [
+            2025,
+            "0603"
+          ]
+        ],
+        "raw_codes": [
+          "0603"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 16,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0604",
+        "vintage_codes": [
+          [
+            2015,
+            "0604"
+          ],
+          [
+            2025,
+            "0604"
+          ]
+        ],
+        "raw_codes": [
+          "0604"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 16,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0605",
+        "vintage_codes": [
+          [
+            2015,
+            "0605"
+          ],
+          [
+            2025,
+            "0605"
+          ]
+        ],
+        "raw_codes": [
+          "0605"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0606",
+        "vintage_codes": [
+          [
+            2015,
+            "0606"
+          ],
+          [
+            2025,
+            "0606"
+          ]
+        ],
+        "raw_codes": [
+          "0606"
+        ],
+        "level": "barrio",
+        "parent_id": "D-06",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0701",
+        "vintage_codes": [
+          [
+            2015,
+            "0701"
+          ],
+          [
+            2025,
+            "0701"
+          ]
+        ],
+        "raw_codes": [
+          "0701"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 19,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0702",
+        "vintage_codes": [
+          [
+            2015,
+            "0702"
+          ],
+          [
+            2025,
+            "0702"
+          ]
+        ],
+        "raw_codes": [
+          "0702"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 22,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0703",
+        "vintage_codes": [
+          [
+            2015,
+            "0703"
+          ],
+          [
+            2025,
+            "0703"
+          ]
+        ],
+        "raw_codes": [
+          "0703"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 23,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0704",
+        "vintage_codes": [
+          [
+            2015,
+            "0704"
+          ],
+          [
+            2025,
+            "0704"
+          ]
+        ],
+        "raw_codes": [
+          "0704"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0705",
+        "vintage_codes": [
+          [
+            2015,
+            "0705"
+          ],
+          [
+            2025,
+            "0705"
+          ]
+        ],
+        "raw_codes": [
+          "0705"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 22,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0706",
+        "vintage_codes": [
+          [
+            2015,
+            "0706"
+          ],
+          [
+            2025,
+            "0706"
+          ]
+        ],
+        "raw_codes": [
+          "0706"
+        ],
+        "level": "barrio",
+        "parent_id": "D-07",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0801",
+        "vintage_codes": [
+          [
+            2015,
+            "0801"
+          ],
+          [
+            2025,
+            "0801"
+          ]
+        ],
+        "raw_codes": [
+          "0801"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 4,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0802",
+        "vintage_codes": [
+          [
+            2015,
+            "0802"
+          ],
+          [
+            2025,
+            "0802"
+          ]
+        ],
+        "raw_codes": [
+          "0802"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 3,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0803",
+        "vintage_codes": [
+          [
+            2015,
+            "0803"
+          ],
+          [
+            2025,
+            "0803"
+          ]
+        ],
+        "raw_codes": [
+          "0803"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 35,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0804",
+        "vintage_codes": [
+          [
+            2015,
+            "0804"
+          ],
+          [
+            2025,
+            "0804"
+          ]
+        ],
+        "raw_codes": [
+          "0804"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 44,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0805",
+        "vintage_codes": [
+          [
+            2015,
+            "0805"
+          ],
+          [
+            2025,
+            "0805"
+          ]
+        ],
+        "raw_codes": [
+          "0805"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0806",
+        "vintage_codes": [
+          [
+            2015,
+            "0806"
+          ],
+          [
+            2025,
+            "0806"
+          ]
+        ],
+        "raw_codes": [
+          "0806"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 36,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0807",
+        "vintage_codes": [
+          [
+            2015,
+            "0807"
+          ],
+          [
+            2025,
+            "0807"
+          ]
+        ],
+        "raw_codes": [
+          "0807"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0808",
+        "vintage_codes": [
+          [
+            2015,
+            "0808"
+          ],
+          [
+            2025,
+            "0808"
+          ]
+        ],
+        "raw_codes": [
+          "0808"
+        ],
+        "level": "barrio",
+        "parent_id": "D-08",
+        "zones": 7,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0901",
+        "vintage_codes": [
+          [
+            2015,
+            "0901"
+          ],
+          [
+            2025,
+            "0901"
+          ]
+        ],
+        "raw_codes": [
+          "0901"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0902",
+        "vintage_codes": [
+          [
+            2015,
+            "0902"
+          ],
+          [
+            2025,
+            "0902"
+          ]
+        ],
+        "raw_codes": [
+          "0902"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 20,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0903",
+        "vintage_codes": [
+          [
+            2015,
+            "0903"
+          ],
+          [
+            2025,
+            "0903"
+          ]
+        ],
+        "raw_codes": [
+          "0903"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 12,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0904",
+        "vintage_codes": [
+          [
+            2015,
+            "0904"
+          ],
+          [
+            2025,
+            "0904"
+          ]
+        ],
+        "raw_codes": [
+          "0904"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 24,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0905",
+        "vintage_codes": [
+          [
+            2015,
+            "0905"
+          ],
+          [
+            2025,
+            "0905"
+          ]
+        ],
+        "raw_codes": [
+          "0905"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 3,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0906",
+        "vintage_codes": [
+          [
+            2015,
+            "0906"
+          ],
+          [
+            2025,
+            "0906"
+          ]
+        ],
+        "raw_codes": [
+          "0906"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 1,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-0907",
+        "vintage_codes": [
+          [
+            2015,
+            "0907"
+          ],
+          [
+            2025,
+            "0907"
+          ]
+        ],
+        "raw_codes": [
+          "0907"
+        ],
+        "level": "barrio",
+        "parent_id": "D-09",
+        "zones": 12,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1001",
+        "vintage_codes": [
+          [
+            2015,
+            "1001"
+          ],
+          [
+            2025,
+            "1001"
+          ]
+        ],
+        "raw_codes": [
+          "1001"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1002",
+        "vintage_codes": [
+          [
+            2015,
+            "1002"
+          ],
+          [
+            2025,
+            "1002"
+          ]
+        ],
+        "raw_codes": [
+          "1002"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 36,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1003",
+        "vintage_codes": [
+          [
+            2015,
+            "1003"
+          ],
+          [
+            2025,
+            "1003"
+          ]
+        ],
+        "raw_codes": [
+          "1003"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 29,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1004",
+        "vintage_codes": [
+          [
+            2015,
+            "1004"
+          ],
+          [
+            2025,
+            "1004"
+          ]
+        ],
+        "raw_codes": [
+          "1004"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 57,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1005",
+        "vintage_codes": [
+          [
+            2015,
+            "1005"
+          ],
+          [
+            2025,
+            "1005"
+          ]
+        ],
+        "raw_codes": [
+          "1005"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1006",
+        "vintage_codes": [
+          [
+            2015,
+            "1006"
+          ],
+          [
+            2025,
+            "1006"
+          ]
+        ],
+        "raw_codes": [
+          "1006"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 2,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1007",
+        "vintage_codes": [
+          [
+            2015,
+            "1007"
+          ],
+          [
+            2025,
+            "1007"
+          ]
+        ],
+        "raw_codes": [
+          "1007"
+        ],
+        "level": "barrio",
+        "parent_id": "D-10",
+        "zones": 42,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1101",
+        "vintage_codes": [
+          [
+            2015,
+            "1101"
+          ],
+          [
+            2025,
+            "1101"
+          ]
+        ],
+        "raw_codes": [
+          "1101"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1102",
+        "vintage_codes": [
+          [
+            2015,
+            "1102"
+          ],
+          [
+            2025,
+            "1102"
+          ]
+        ],
+        "raw_codes": [
+          "1102"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1103",
+        "vintage_codes": [
+          [
+            2015,
+            "1103"
+          ],
+          [
+            2025,
+            "1103"
+          ]
+        ],
+        "raw_codes": [
+          "1103"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1104",
+        "vintage_codes": [
+          [
+            2015,
+            "1104"
+          ],
+          [
+            2025,
+            "1104"
+          ]
+        ],
+        "raw_codes": [
+          "1104"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 34,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1105",
+        "vintage_codes": [
+          [
+            2015,
+            "1105"
+          ],
+          [
+            2025,
+            "1105"
+          ]
+        ],
+        "raw_codes": [
+          "1105"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 25,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1106",
+        "vintage_codes": [
+          [
+            2015,
+            "1106"
+          ],
+          [
+            2025,
+            "1106"
+          ]
+        ],
+        "raw_codes": [
+          "1106"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1107",
+        "vintage_codes": [
+          [
+            2015,
+            "1107"
+          ],
+          [
+            2025,
+            "1107"
+          ]
+        ],
+        "raw_codes": [
+          "1107"
+        ],
+        "level": "barrio",
+        "parent_id": "D-11",
+        "zones": 21,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1201",
+        "vintage_codes": [
+          [
+            2015,
+            "1201"
+          ],
+          [
+            2025,
+            "1201"
+          ]
+        ],
+        "raw_codes": [
+          "1201"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1202",
+        "vintage_codes": [
+          [
+            2015,
+            "1202"
+          ],
+          [
+            2025,
+            "1202"
+          ]
+        ],
+        "raw_codes": [
+          "1202"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 8,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1203",
+        "vintage_codes": [
+          [
+            2015,
+            "1203"
+          ],
+          [
+            2025,
+            "1203"
+          ]
+        ],
+        "raw_codes": [
+          "1203"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1204",
+        "vintage_codes": [
+          [
+            2015,
+            "1204"
+          ],
+          [
+            2025,
+            "1204"
+          ]
+        ],
+        "raw_codes": [
+          "1204"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1205",
+        "vintage_codes": [
+          [
+            2015,
+            "1205"
+          ],
+          [
+            2025,
+            "1205"
+          ]
+        ],
+        "raw_codes": [
+          "1205"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1206",
+        "vintage_codes": [
+          [
+            2015,
+            "1206"
+          ],
+          [
+            2025,
+            "1206"
+          ]
+        ],
+        "raw_codes": [
+          "1206"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 10,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1207",
+        "vintage_codes": [
+          [
+            2015,
+            "1207"
+          ],
+          [
+            2025,
+            "1207"
+          ]
+        ],
+        "raw_codes": [
+          "1207"
+        ],
+        "level": "barrio",
+        "parent_id": "D-12",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1301",
+        "vintage_codes": [
+          [
+            2015,
+            "1301"
+          ],
+          [
+            2025,
+            "1301"
+          ]
+        ],
+        "raw_codes": [
+          "1301"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 29,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1302",
+        "vintage_codes": [
+          [
+            2015,
+            "1302"
+          ],
+          [
+            2025,
+            "1302"
+          ]
+        ],
+        "raw_codes": [
+          "1302"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 30,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1303",
+        "vintage_codes": [
+          [
+            2015,
+            "1303"
+          ],
+          [
+            2025,
+            "1303"
+          ]
+        ],
+        "raw_codes": [
+          "1303"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1304",
+        "vintage_codes": [
+          [
+            2015,
+            "1304"
+          ],
+          [
+            2025,
+            "1304"
+          ]
+        ],
+        "raw_codes": [
+          "1304"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 33,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1305",
+        "vintage_codes": [
+          [
+            2015,
+            "1305"
+          ],
+          [
+            2025,
+            "1305"
+          ]
+        ],
+        "raw_codes": [
+          "1305"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 22,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1306",
+        "vintage_codes": [
+          [
+            2015,
+            "1306"
+          ],
+          [
+            2025,
+            "1306"
+          ]
+        ],
+        "raw_codes": [
+          "1306"
+        ],
+        "level": "barrio",
+        "parent_id": "D-13",
+        "zones": 33,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1401",
+        "vintage_codes": [
+          [
+            2015,
+            "1401"
+          ],
+          [
+            2025,
+            "1401"
+          ]
+        ],
+        "raw_codes": [
+          "1401"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 7,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1402",
+        "vintage_codes": [
+          [
+            2015,
+            "1402"
+          ],
+          [
+            2025,
+            "1402"
+          ]
+        ],
+        "raw_codes": [
+          "1402"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 4,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1403",
+        "vintage_codes": [
+          [
+            2015,
+            "1403"
+          ],
+          [
+            2025,
+            "1403"
+          ]
+        ],
+        "raw_codes": [
+          "1403"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 22,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1404",
+        "vintage_codes": [
+          [
+            2015,
+            "1404"
+          ],
+          [
+            2025,
+            "1404"
+          ]
+        ],
+        "raw_codes": [
+          "1404"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 16,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1405",
+        "vintage_codes": [
+          [
+            2015,
+            "1405"
+          ],
+          [
+            2025,
+            "1405"
+          ]
+        ],
+        "raw_codes": [
+          "1405"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 17,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1406",
+        "vintage_codes": [
+          [
+            2015,
+            "1406"
+          ],
+          [
+            2025,
+            "1406"
+          ]
+        ],
+        "raw_codes": [
+          "1406"
+        ],
+        "level": "barrio",
+        "parent_id": "D-14",
+        "zones": 15,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1501",
+        "vintage_codes": [
+          [
+            2015,
+            "1501"
+          ],
+          [
+            2025,
+            "1501"
+          ]
+        ],
+        "raw_codes": [
+          "1501"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 41,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1502",
+        "vintage_codes": [
+          [
+            2015,
+            "1502"
+          ],
+          [
+            2025,
+            "1502"
+          ]
+        ],
+        "raw_codes": [
+          "1502"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 46,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1503",
+        "vintage_codes": [
+          [
+            2015,
+            "1503"
+          ],
+          [
+            2025,
+            "1503"
+          ]
+        ],
+        "raw_codes": [
+          "1503"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 20,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1504",
+        "vintage_codes": [
+          [
+            2015,
+            "1504"
+          ],
+          [
+            2025,
+            "1504"
+          ]
+        ],
+        "raw_codes": [
+          "1504"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 18,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1505",
+        "vintage_codes": [
+          [
+            2015,
+            "1505"
+          ],
+          [
+            2025,
+            "1505"
+          ]
+        ],
+        "raw_codes": [
+          "1505"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 13,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1506",
+        "vintage_codes": [
+          [
+            2015,
+            "1506"
+          ],
+          [
+            2025,
+            "1506"
+          ]
+        ],
+        "raw_codes": [
+          "1506"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 9,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1507",
+        "vintage_codes": [
+          [
+            2015,
+            "1507"
+          ],
+          [
+            2025,
+            "1507"
+          ]
+        ],
+        "raw_codes": [
+          "1507"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 5,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1508",
+        "vintage_codes": [
+          [
+            2015,
+            "1508"
+          ],
+          [
+            2025,
+            "1508"
+          ]
+        ],
+        "raw_codes": [
+          "1508"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 1,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1509",
+        "vintage_codes": [
+          [
+            2015,
+            "1509"
+          ],
+          [
+            2025,
+            "1509"
+          ]
+        ],
+        "raw_codes": [
+          "1509"
+        ],
+        "level": "barrio",
+        "parent_id": "D-15",
+        "zones": 15,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1601",
+        "vintage_codes": [
+          [
+            2015,
+            "1601"
+          ],
+          [
+            2025,
+            "1601"
+          ]
+        ],
+        "raw_codes": [
+          "1601"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 4,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1602",
+        "vintage_codes": [
+          [
+            2015,
+            "1602"
+          ],
+          [
+            2025,
+            "1602"
+          ]
+        ],
+        "raw_codes": [
+          "1602"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 7,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1603",
+        "vintage_codes": [
+          [
+            2015,
+            "1603"
+          ],
+          [
+            2025,
+            "1603"
+          ]
+        ],
+        "raw_codes": [
+          "1603"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 31,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1604",
+        "vintage_codes": [
+          [
+            2015,
+            "1604"
+          ],
+          [
+            2025,
+            "1604"
+          ]
+        ],
+        "raw_codes": [
+          "1604"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 38,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1605",
+        "vintage_codes": [
+          [
+            2015,
+            "1605"
+          ],
+          [
+            2025,
+            "1605"
+          ]
+        ],
+        "raw_codes": [
+          "1605"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1606+2102+2103+2104+2105",
+        "vintage_codes": [
+          [
+            2015,
+            "1606"
+          ],
+          [
+            2015,
+            "2102"
+          ],
+          [
+            2015,
+            "2103"
+          ],
+          [
+            2015,
+            "2104"
+          ],
+          [
+            2015,
+            "2105"
+          ],
+          [
+            2025,
+            "1606"
+          ],
+          [
+            2025,
+            "2102"
+          ],
+          [
+            2025,
+            "2103"
+          ],
+          [
+            2025,
+            "2104"
+          ],
+          [
+            2025,
+            "2105"
+          ]
+        ],
+        "raw_codes": [
+          "1606",
+          "2102",
+          "2103",
+          "2104",
+          "2105"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 32,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1701",
+        "vintage_codes": [
+          [
+            2015,
+            "1701"
+          ],
+          [
+            2025,
+            "1701"
+          ]
+        ],
+        "raw_codes": [
+          "1701"
+        ],
+        "level": "barrio",
+        "parent_id": "D-17",
+        "zones": 33,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1702",
+        "vintage_codes": [
+          [
+            2015,
+            "1702"
+          ],
+          [
+            2025,
+            "1702"
+          ]
+        ],
+        "raw_codes": [
+          "1702"
+        ],
+        "level": "barrio",
+        "parent_id": "D-17",
+        "zones": 11,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1703",
+        "vintage_codes": [
+          [
+            2015,
+            "1703"
+          ],
+          [
+            2025,
+            "1703"
+          ]
+        ],
+        "raw_codes": [
+          "1703"
+        ],
+        "level": "barrio",
+        "parent_id": "D-17",
+        "zones": 8,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1704",
+        "vintage_codes": [
+          [
+            2015,
+            "1704"
+          ],
+          [
+            2025,
+            "1704"
+          ]
+        ],
+        "raw_codes": [
+          "1704"
+        ],
+        "level": "barrio",
+        "parent_id": "D-17",
+        "zones": 25,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1705",
+        "vintage_codes": [
+          [
+            2015,
+            "1705"
+          ],
+          [
+            2025,
+            "1705"
+          ]
+        ],
+        "raw_codes": [
+          "1705"
+        ],
+        "level": "barrio",
+        "parent_id": "D-17",
+        "zones": 26,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1801+1803",
+        "vintage_codes": [
+          [
+            2015,
+            "1801"
+          ],
+          [
+            2025,
+            "1801"
+          ],
+          [
+            2025,
+            "1803"
+          ]
+        ],
+        "raw_codes": [
+          "1801",
+          "1803"
+        ],
+        "level": "barrio",
+        "parent_id": "D-18",
+        "zones": 39,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1802",
+        "vintage_codes": [
+          [
+            2015,
+            "1802"
+          ],
+          [
+            2025,
+            "1802"
+          ]
+        ],
+        "raw_codes": [
+          "1802"
+        ],
+        "level": "barrio",
+        "parent_id": "D-18",
+        "zones": 16,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-1901+1902+1903+1904",
+        "vintage_codes": [
+          [
+            2015,
+            "1901"
+          ],
+          [
+            2015,
+            "1902"
+          ],
+          [
+            2025,
+            "1901"
+          ],
+          [
+            2025,
+            "1902"
+          ],
+          [
+            2025,
+            "1903"
+          ],
+          [
+            2025,
+            "1904"
+          ]
+        ],
+        "raw_codes": [
+          "1901",
+          "1902",
+          "1903",
+          "1904"
+        ],
+        "level": "barrio",
+        "parent_id": "D-19",
+        "zones": 41,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2001",
+        "vintage_codes": [
+          [
+            2015,
+            "2001"
+          ],
+          [
+            2025,
+            "2001"
+          ]
+        ],
+        "raw_codes": [
+          "2001"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 19,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2002",
+        "vintage_codes": [
+          [
+            2015,
+            "2002"
+          ],
+          [
+            2025,
+            "2002"
+          ]
+        ],
+        "raw_codes": [
+          "2002"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 8,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2003",
+        "vintage_codes": [
+          [
+            2015,
+            "2003"
+          ],
+          [
+            2025,
+            "2003"
+          ]
+        ],
+        "raw_codes": [
+          "2003"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 9,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2004",
+        "vintage_codes": [
+          [
+            2015,
+            "2004"
+          ],
+          [
+            2025,
+            "2004"
+          ]
+        ],
+        "raw_codes": [
+          "2004"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 19,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2005",
+        "vintage_codes": [
+          [
+            2015,
+            "2005"
+          ],
+          [
+            2025,
+            "2005"
+          ]
+        ],
+        "raw_codes": [
+          "2005"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 15,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2006",
+        "vintage_codes": [
+          [
+            2015,
+            "2006"
+          ],
+          [
+            2025,
+            "2006"
+          ]
+        ],
+        "raw_codes": [
+          "2006"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 7,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2007",
+        "vintage_codes": [
+          [
+            2015,
+            "2007"
+          ],
+          [
+            2025,
+            "2007"
+          ]
+        ],
+        "raw_codes": [
+          "2007"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 20,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2008",
+        "vintage_codes": [
+          [
+            2015,
+            "2008"
+          ],
+          [
+            2025,
+            "2008"
+          ]
+        ],
+        "raw_codes": [
+          "2008"
+        ],
+        "level": "barrio",
+        "parent_id": "D-20",
+        "zones": 7,
+        "official_historical_parent_verified": false
+      },
+      {
+        "id": "B-2101",
+        "vintage_codes": [
+          [
+            2015,
+            "2101"
+          ],
+          [
+            2025,
+            "2101"
+          ]
+        ],
+        "raw_codes": [
+          "2101"
+        ],
+        "level": "barrio",
+        "parent_id": "D-16+21",
+        "zones": 14,
+        "official_historical_parent_verified": false
+      }
+    ],
+    "maximum_symmetric_difference_ratio": 1.42882451275014e-07,
+    "all_weights_one": true,
+    "official_historical_parents_verified": false,
+    "policy": "Pool complete common section zones and all affected administrative codes across vintages; do not select majority parents or split population by land area",
+    "interpretation": "Common research aggregates, not official dated barrio/district boundaries"
+  },
+  "limitations": [
+    "Research only: conditional blank-to-zero policy under matched exhaustive monthly controls; raw nulls preserved.",
+    "National mortality used for headline; Madrid closed-band sensitivity is an explicit approximation, ages 95+ never expanded.",
+    "Residual is a stock difference incorporating moves, registration, nationality changes and model error; not migration flows.",
+    "Exact research common-zone arithmetic does not establish historical administrative parent validity.",
+    "Official release gates remain closed pending evidence and review; source publication totals are different from the monthly series."
+  ]
+}

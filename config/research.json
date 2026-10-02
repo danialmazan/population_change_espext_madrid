@@ -1,0 +1,14 @@
+{
+  "start_date": "2015-01-01",
+  "end_date": "2025-01-01",
+  "mortality_region": "España (INE 27153)",
+  "zone_version": "2015-2025-common-research-v1",
+  "terminal_age": 100,
+  "min_expected": 20,
+  "exact_coverage_gate": 0.95,
+  "overlap_tolerance": 0.001,
+  "material_overlap": 0.000001,
+  "discontinuity_threshold": 0.05,
+  "timing_materiality": 0.005,
+  "dataset_kind": "research"
+}
