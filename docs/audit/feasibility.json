@@ -1,0 +1,33 @@
+{
+  "production_ready": false,
+  "completed_scope": "source acquisition, preliminary feasibility audit, independent endpoint comparison and audit normalisation",
+  "sources_acquired": 28,
+  "sources_required": 28,
+  "gates": [
+    {
+      "gate": "monthly_reference_dates",
+      "status": "documented",
+      "evidence": "padron_documentation: each monthly file refers to day 1; release dates are distinct"
+    },
+    {
+      "gate": "independent_population_totals",
+      "status": "compared_unresolved",
+      "reason": "Independent INE legal and annual revised municipal totals acquired. Section differences add to city discrepancies and No consta is accounted for; monthly-versus-revised source policy and blank interpretation remain unresolved."
+    },
+    {
+      "gate": "padron_schema_contracts",
+      "status": "implemented_with_unresolved_counts",
+      "reason": "Versioned aliases and conservation checks implemented. Blank counts stay null, terminal ages stay separate, missing sections and split barrio memberships are preserved."
+    },
+    {
+      "gate": "mortality_method",
+      "status": "configured_national_single_age",
+      "reason": "Spain single-age qx configured with explicit per-thousand conversion and ages 10–99 counterfactual scope. National mortality caveat and pending regional sensitivity recorded."
+    },
+    {
+      "gate": "geographic_comparability",
+      "status": "requires_review",
+      "reason": "Review provisional components and source/code exceptions; audit historical barrio/district boundaries and parent containment."
+    }
+  ]
+}

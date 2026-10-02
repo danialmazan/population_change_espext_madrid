@@ -27,6 +27,23 @@ def canonical_section(district, section):
     return "28079" + d + s.zfill(3)
 
 
+def canonical_barrio(district, barrio, code_format="district_times_10"):
+    """Interpret the code only according to the versioned source schema."""
+    widths = {"district_times_10": 3, "district_times_100": 4}
+    if code_format not in widths:
+        raise ContractError("unreviewed barrio code format")
+    width = widths[code_format]
+    district, barrio = str(district).strip().zfill(2), str(barrio).strip().zfill(width)
+    if (
+        len(barrio) != width
+        or not barrio.isdigit()
+        or barrio[:2] != district
+        or int(barrio[2:]) == 0
+    ):
+        raise ContractError("barrio code disagrees with district")
+    return barrio
+
+
 def normalize_padron(path, schema, reference_date, source_id):
     if not schema["valid_from"] <= reference_date <= schema["valid_to"]:
         raise ContractError("schema not valid for reference date")
@@ -65,7 +82,9 @@ def normalize_padron(path, schema, reference_date, source_id):
             for original, canonical in aliases.items()
         }
         age_text = row["age"]
-        is_open = age_text == f"{schema.get('open_age', 100)}+"
+        is_open = age_text in schema.get(
+            "open_age_labels", [f"{schema.get('open_age', 100)}+"]
+        )
         if not age_text.isdigit() and not is_open:
             if age_text not in {
                 "",
@@ -92,9 +111,11 @@ def normalize_padron(path, schema, reference_date, source_id):
             raise ContractError("impossible age")
         gid = canonical_section(row["district"], row["section"])
         district = row["district"].zfill(2)
-        barrio = row["barrio"].zfill(3)
-        if len(barrio) != 3 or not barrio.isdigit() or barrio[:2] != district:
-            raise ContractError("barrio code disagrees with district")
+        barrio = canonical_barrio(
+            district,
+            row["barrio"],
+            schema.get("barrio_code_format", "district_times_10"),
+        )
         if gid in parents and parents[gid] != (district, barrio):
             raise ContractError("ambiguous vintage parent")
         parents[gid] = (district, barrio)

@@ -1,0 +1,70 @@
+{
+  "production_ready": false,
+  "stage": "normalised_audit_inputs",
+  "config_sha256": "20639eb762e551003dda9abfa30a805ec52e1a4a472d00ed9c600b65a4f01eb2",
+  "aliases_sha256": "b82cc2658b51eb1dccd8962788e983d7361f3e1ba971488c587cdcd21244e57b",
+  "population": [
+    {
+      "source_id": "padron_january_2015",
+      "source_sha256": "d85d882dba32bfe79e5f520f14818b4ec31d4bf2dd4ef26e337df77cb439b65d",
+      "long_rows": 931972,
+      "unknown_count_cells": 304657,
+      "known_population_sum": 3149663,
+      "known_population_without_geometry": 12,
+      "unknown_by_count_column": {
+        "ESPANOLESHOMBRES": 16240,
+        "ESPANOLESMUJERES": 5809,
+        "EXTRANJEROSMUJERES": 136657,
+        "EXTRANJEROSHOMBRES": 145951
+      },
+      "known_population_by_cohort_status": {
+        "eligible": 3109701,
+        "excluded_terminal": 39961,
+        "excluded_invalid_age": 1
+      },
+      "sections_with_multiple_barrios": {},
+      "output_sha256": "d11f516f8862cbe2d9dfc461e514072d38b7713348136ae93d80dd250dd3a54b",
+      "output_path": "data/normalised/padron_2015-01-01.csv",
+      "production_ready": false
+    },
+    {
+      "source_id": "padron_january_2025",
+      "source_sha256": "65cded5a78c87f63d32c6b8860f061f58a4453bea87e747e849e0883d74b569a",
+      "long_rows": 962528,
+      "unknown_count_cells": 0,
+      "known_population_sum": 3540364,
+      "known_population_without_geometry": 5,
+      "unknown_by_count_column": {},
+      "known_population_by_cohort_status": {
+        "eligible": 3275658,
+        "observed_born_during_interval": 262476,
+        "excluded_terminal": 2230
+      },
+      "sections_with_multiple_barrios": {
+        "2807919036": [
+          1901,
+          1902
+        ]
+      },
+      "output_sha256": "5c13d9a5120bf319f3c57312ce2d84171283178c11e2a21eebb5ee4d81616740",
+      "output_path": "data/normalised/padron_2025-01-01.csv",
+      "production_ready": false
+    }
+  ],
+  "mortality": {
+    "region": "Spain",
+    "cells": 2000,
+    "output_sha256": "be33a8ed612a2ace46c2b7c982bb227955e334b0cdbb3bafda169786bf3bbf9c",
+    "output_path": "data/normalised/mortality_2015_2024.csv",
+    "unit_conversion": "Riesgo de muerte / 1000",
+    "terminal_group_not_expanded": true,
+    "source_sha256": "56b8eb106efe6e705a1797e3968afc812271a3f29e7aca169a3aa3cb41e5ea6d"
+  },
+  "release_blockers": [
+    "Unknown baseline counts remain null",
+    "Endpoint differences from INE totals remain unresolved",
+    "Geography crosswalk and historical parents require review"
+  ],
+  "legacy_cli_compatible": false,
+  "reason": "Nullable populations, excluded age groups and raw-vintage geography must pass release contracts before model input export."
+}

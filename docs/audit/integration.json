@@ -1,0 +1,29 @@
+{
+  "production_ready": false,
+  "manifest_sha256": "4da15d9b0f72d6052165a8944427dcea89ea48a93b1293c53081eaef69abb00f",
+  "verified_snapshots": 29,
+  "alternate_2015_export_rows_identical": 232993,
+  "monthly_controls": [
+    {
+      "year": 2015,
+      "known_total": 3149663,
+      "all_four_cells_match": true,
+      "response_encoding": "iso-8859-1",
+      "response_sha256": "d7e985169b40604696a7e381d5033db63c7a02ce4577a6e92d8b628db34329fb"
+    },
+    {
+      "year": 2025,
+      "known_total": 3540364,
+      "all_four_cells_match": true,
+      "response_encoding": "iso-8859-1",
+      "response_sha256": "54fe3f8722fb1ae0173e6d075080de845d8780f0d907c24ffff5dd1a5550350a"
+    }
+  ],
+  "blank_count_policy": "unknown_null",
+  "release_blockers": [
+    "Blank-cell interpretation requires explicit source policy/review",
+    "Monthly versus revised annual series differences require review",
+    "Boundary changes and historical parents require review",
+    "Independent survival, sensitivity and licensing reviews pending"
+  ]
+}

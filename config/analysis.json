@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "start_date": "2015-01-01",
+  "end_date": "2025-01-01",
+  "mortality_source_id": "mortality_national_table",
+  "mortality_region": "Spain",
+  "mortality_measure": "Riesgo de muerte",
+  "mortality_unit_divisor": 1000,
+  "mortality_caveat": "National period life tables, not Madrid-specific or small-area mortality; regional sensitivity remains pending.",
+  "cohort_endpoint_age_min": 10,
+  "cohort_endpoint_age_max": 99,
+  "terminal_age_policy": "Exclude baseline ages 90+ and endpoint ages 100+ from the paired counterfactual; preserve observed counts separately.",
+  "blank_count_policy": "unknown_null",
+  "unknown_age_policy": "preserve_and_exclude",
+  "split_barrio_policy": "preserve_each_raw_barrio_membership; do not pick one parent",
+  "production_ready": false,
+  "population_source_series": "monthly municipal extraction, not the annual revised or legally approved INE series",
+  "EXT_definition": "non-Spanish including stateless and unknown nationality, following raw-source documentation"
+}

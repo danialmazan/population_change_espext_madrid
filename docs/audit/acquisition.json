@@ -1,0 +1,211 @@
+{
+  "manifest_sha256": "4da15d9b0f72d6052165a8944427dcea89ea48a93b1293c53081eaef69abb00f",
+  "dataset_kind": "audit_only",
+  "production_ready": false,
+  "verification": "Checksum and byte-size checks against pinned manifest; original receipts retained locally.",
+  "sources": [
+    {
+      "id": "padron_historical_catalogue",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_current_catalogue",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_documentation",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_dimensions",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_table",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "sections_2015",
+      "passed": true,
+      "reference_date": "2015-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "sections_2025",
+      "passed": true,
+      "reference_date": "2025-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2024",
+      "passed": true,
+      "reference_date": "2024-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2022",
+      "passed": true,
+      "reference_date": "2022-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2021",
+      "passed": true,
+      "reference_date": "2021-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2020",
+      "passed": true,
+      "reference_date": "2020-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2018",
+      "passed": true,
+      "reference_date": "2018-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2016",
+      "passed": true,
+      "reference_date": "2016-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2015",
+      "passed": true,
+      "reference_date": "2015-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2014",
+      "passed": true,
+      "reference_date": "2014-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2023",
+      "passed": true,
+      "reference_date": "2023-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2017",
+      "passed": true,
+      "reference_date": "2017-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2019",
+      "passed": true,
+      "reference_date": "2019-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2025",
+      "passed": true,
+      "reference_date": "2025-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_series",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_national_series",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_national_table",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "mortality_collection",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "ine_approved_population",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_methodology",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_publications",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_section_totals_2009_2019",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "municipal_section_totals_2020_2026",
+      "passed": true,
+      "reference_date": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    },
+    {
+      "id": "padron_january_2015_txt",
+      "passed": true,
+      "reference_date": "2015-01-01",
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
+      "license": null
+    }
+  ]
+}
