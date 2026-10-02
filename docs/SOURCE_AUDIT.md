@@ -2,9 +2,11 @@
 
 Audit date: **2 October 2026**. Outcome: **sources available; official analytical release remains blocked**. The analytical pipeline and static demo already exist. This audit does not replace the demonstration payload with official results.
 
+This document records the original acquisition snapshot. Subsequent [integration](OFFICIAL_INTEGRATION.md), [conditional count-policy](BLANK_COUNT_POLICY.md) and [boundary review](BOUNDARY_REVIEW.md) reports contain the current findings.
+
 ## Acquired evidence
 
-All **28 source snapshots** were downloaded, inspected and pinned by SHA-256 in [`sources.lock.yml`](../sources.lock.yml). The manifest records exact URLs, retrieval dates, explicit CSV encodings and delimiters, and reference-date evidence. Pins approve acquisition snapshots only. Raw files and unique receipts are retained locally under ignored `data/raw/`; the tracked [acquisition report](audit/acquisition.json) records sizes, hashes, final URLs, timestamps, response metadata and resource discovery. Raw bytes are excluded from Git.
+All **28 source snapshots** were downloaded, inspected and pinned by SHA-256 in [`sources.lock.yml`](../sources.lock.yml). The manifest records exact URLs, retrieval dates, explicit CSV encodings and delimiters, and reference-date evidence. Pins approve acquisition snapshots only. Raw files and unique receipts are retained locally under ignored `data/raw/`; the tracked [acquisition report](audit/acquisition.json) now records verification against the pinned manifest; the local receipts retain final URLs, timestamps, response metadata and resource discovery. Raw bytes are excluded from Git.
 
 The Madrid portal has migrated. The plan's legacy `200076-0-padron.xml` and `.csv` endpoints returned HTTP 404. The live catalogue links to a separate [historical dataset](https://datos.madrid.es/dataset/209163-0-padron-municipal-historico), whose [RDF resource catalogue](https://datos.madrid.es/dataset/209163-0-padron-municipal-historico.rdf) exposes January resources for every year from 2014 through 2025. Resource filenames have numeric identifiers that do not encode the year; the manifest uses catalogue descriptions rather than guessed filenames.
 

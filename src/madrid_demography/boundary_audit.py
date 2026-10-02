@@ -37,6 +37,15 @@ def read_sections(path: Path) -> tuple[dict, dict]:
             code = attrs["CUSEC"]
             if code in result:
                 raise ValueError(f"duplicate geometry ID {code}")
+            if (
+                attrs["CUDIS"] != code[:7]
+                or attrs["CDIS"] != code[5:7]
+                or attrs["CSEC"] != code[7:]
+                or not 1 <= int(attrs["CDIS"]) <= 21
+            ):
+                raise ValueError(
+                    f"inconsistent geometry district/section attributes {code}"
+                )
             geometry = shape(reader.shape(index).__geo_interface__)
             if not geometry.is_valid or geometry.is_empty:
                 invalid.append(code)
@@ -46,6 +55,7 @@ def read_sections(path: Path) -> tuple[dict, dict]:
             "sections": len(result),
             "invalid_or_empty_ids": invalid,
             "layer": names[".shp"],
+            "district_section_attribute_checks_passed": True,
         }
 
 
