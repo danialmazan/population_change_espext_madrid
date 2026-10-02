@@ -25,8 +25,12 @@ The strict model normaliser can now use a versioned `barrio_code_format: distric
 
 Audit configuration remains separate from `project.example.json`. An executable official model configuration cannot be completed until nullable counts, geography and historical parent contracts have been resolved. No official explorer bundle is published by these changes.
 
+## Subsequent blank-count policy
+
+District-by-single-age controls now match all 7,560 four-way count totals for baseline ages 0–89. A conditional research candidate infers 261,837 zeros, preserves raw null status, and leaves 42,820 out-of-scope blanks null. See [BLANK_COUNT_POLICY.md](BLANK_COUNT_POLICY.md) for assumptions, evidence and reproduction. This is not a source definition or official release approval.
+
 ## Validation and next step
 
-49 automated tests pass. `scripts/check_official_inputs.py` verifies all 29 source hashes and sizes, full CSV/TXT equality, and all four monthly control totals. Endpoint audit exports conserve known counts and null counts; national mortality covers all 2,000 required sex/year/age cells.
+53 automated tests pass. `scripts/check_official_inputs.py` verifies all 29 source hashes and sizes, full CSV/TXT equality, and all four monthly control totals. Endpoint audit exports conserve known counts and null counts; national mortality covers all 2,000 required sex/year/age cells.
 
-Next: approve a documented monthly-source and blank-cell policy, then review changed geometry components and historical barrio/district parents. Annual revised differences remain 7,672 people in 2015 and 12,440 in 2025; the monthly controls show these differences are between published series, rather than a failure to sum the CSV. The exact revisions remain unexplained. Independent survival reproduction, regional mortality sensitivity, and licensing review also remain required before an official release.
+Next: review changed geometry components and historical barrio/district parents, alongside the documented monthly-source and conditional blank-cell policy. Annual revised differences remain 7,672 people in 2015 and 12,440 in 2025; the monthly controls show these differences are between published series, rather than a failure to sum the CSV. The exact revisions remain unexplained. Independent survival reproduction, regional mortality sensitivity, and licensing review also remain required before an official release.

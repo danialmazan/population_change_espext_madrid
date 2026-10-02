@@ -63,3 +63,5 @@ PYTHONPATH=src python -m madrid_demography.audit
 ```
 
 The XLSX reader uses the Python standard library and reads stored workbook values, not recalculated formulas. Normalisation verifies pinned raw hashes and conserves both known counts and unknown cells. Generated CSVs stay under ignored `data/normalised/`; tracked reports contain their hashes. Production remains blocked until a compatible monthly/revised source policy and blank-count rule are supported by evidence, geographic components and historical parent boundaries are reviewed, and release QA passes. The demonstration website remains unchanged.
+
+Subsequent work: [the conditional blank-count policy](BLANK_COUNT_POLICY.md) uses matched district/age controls to produce a labelled research candidate for eligible 2015 cells. Raw audit blanks remain null, and the policy does not approve an official release.

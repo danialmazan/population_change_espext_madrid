@@ -1,0 +1,32 @@
+{
+  "id": "monthly-2015-eligible-zero-v1",
+  "status": "conditional_research_policy",
+  "production_ready": false,
+  "source_id": "padron_january_2015",
+  "source_sha256": "d85d882dba32bfe79e5f520f14818b4ec31d4bf2dd4ef26e337df77cb439b65d",
+  "reference_date": "2015-01-01",
+  "age_min": 0,
+  "age_max": 89,
+  "control_url": "https://servpub.madrid.es/CSEBD_WBINTER/detalleSerie.html",
+  "controls": [
+    {
+      "path": "docs/audit/monthly-age-controls/districts-01-10.json.gz",
+      "receipt": "docs/audit/monthly-age-controls/districts-01-10.receipt.json",
+      "sha256": "3ee7b8d6fe55e581397091f004a0584b2f21ecc4c3cbde3966dcb8ca48c83a0e"
+    },
+    {
+      "path": "docs/audit/monthly-age-controls/districts-11-21.json.gz",
+      "receipt": "docs/audit/monthly-age-controls/districts-11-21.receipt.json",
+      "sha256": "1cfbfe6378a403f71c2b5f959018a737c0ea52da6883ed572b64b0792cb76882"
+    }
+  ],
+  "assumptions": [
+    "Monthly controls exhaustively cover the same population universe as the CSV",
+    "Population counts are nonnegative",
+    "Known CSV cells are correct; compensating source errors are absent"
+  ],
+  "inference": "Every district/age/sex/nationality group has zero residual. A sum of nonnegative unknown counts equal to zero forces each blank to zero.",
+  "raw_blank_policy": "unknown_null",
+  "derived_blank_policy": "inferred_zero_monthly_control",
+  "out_of_scope": "Other vintages and baseline ages 90+ remain unchanged; this policy does not approve geography, source revisions or official publication."
+}

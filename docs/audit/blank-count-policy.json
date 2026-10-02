@@ -1,0 +1,21 @@
+{
+  "policy_id": "monthly-2015-eligible-zero-v1",
+  "policy_sha256": "cd8f070a4be3a0b61150146bc5ecaaf78e81547881873e09b19acecf9e40116c",
+  "production_ready": false,
+  "raw_blanks_retained": 304657,
+  "out_of_scope_blanks": 42820,
+  "verified_control_cells": 7560,
+  "inferred_zero_cells": 261837,
+  "eligible_known_population": 3109701,
+  "candidate": {
+    "inferred_zero_cells": 261837,
+    "output_sha256": "bde2526196c8a98d68d7809e292a5f770ae81c85574f077109ea18f788a905db",
+    "output_path": "data/normalised/padron_2015_monthly_candidate.csv"
+  },
+  "remaining_gates": [
+    "Source universe and policy review",
+    "Monthly versus annual revision policy",
+    "Boundary and historical parent review",
+    "Independent survival, sensitivity and licensing reviews"
+  ]
+}

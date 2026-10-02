@@ -54,7 +54,7 @@ python -m madrid_demography.normalise
 python scripts/check_official_inputs.py
 ```
 
-`normalise` preserves nullable counts and exceptional geography in audit exports. These exports do not satisfy the model-facing `normalize` contract and cannot be published as official results. See [integration status](docs/OFFICIAL_INTEGRATION.md).
+`normalise` preserves nullable counts and exceptional geography in audit exports. These exports do not satisfy the model-facing `normalize` contract and cannot be published as official results. A separate [conditional blank-count policy](docs/BLANK_COUNT_POLICY.md) produces a labelled research candidate after checking 7,560 monthly controls. See [integration status](docs/OFFICIAL_INTEGRATION.md).
 
 ## Verify
 
