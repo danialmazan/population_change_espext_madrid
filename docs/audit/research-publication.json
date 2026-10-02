@@ -1,0 +1,8 @@
+{
+  "archive": "reports/research-explorer.zip",
+  "sha256": "9ae692db2e1d2a4b723b1bd96860843cf28135b0794408f654fc5027c10a878c",
+  "bytes": 63320023,
+  "source_build_commit": "2d9c1d2654bfc51ddc0ae34bf77e6fe0bc2f7c64",
+  "dataset_kind": "research",
+  "official_release_passed": false
+}

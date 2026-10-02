@@ -103,9 +103,9 @@ The observed research explorer has three datasets: 2015–2025 common areas, 201
 
 | Dataset | Index + indicators gzip | Typical initial data gzip | Passed |
 |---|---:|---:|---|
-| 2014-2024-city | 732 bytes | 20,596 bytes | Yes |
-| 2015-2025-areas | 291,220 bytes | 322,868 bytes | Yes |
-| 2015-2025-city | 731 bytes | 20,790 bytes | Yes |
+| 2014-2024-city | 732 bytes | 20,600 bytes | Yes |
+| 2015-2025-areas | 291,220 bytes | 322,867 bytes | Yes |
+| 2015-2025-city | 731 bytes | 20,791 bytes | Yes |
 
 Typical initial data includes the manifest, index, indicators, default map geometry and first area profile. Every artifact and CSV/Parquet download has a verified checksum. Limits remain 500 KB initial data, 1 MB per geometry layer and 100 KB per profile.
 
