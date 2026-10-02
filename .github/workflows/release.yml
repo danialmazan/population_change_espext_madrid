@@ -1,0 +1,39 @@
+name: Reviewed official data build
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: Checked-in project config with pinned sources and review evidence
+        required: true
+        type: string
+jobs:
+  official:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT_CONFIG: ${{ inputs.project }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.lock && pip install --no-deps -e .
+      - run: sudo apt-get update && sudo apt-get install -y gdal-bin
+      - run: python -m unittest discover -s tests -v
+      - name: Verify official configuration and acquire pinned sources
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+          path = Path(os.environ['PROJECT_CONFIG']).resolve()
+          spec = json.loads(path.read_text())
+          assert spec['model']['dataset_kind'] == 'official', 'release requires an official configuration'
+          subprocess.run(['python', '-m', 'madrid_demography.cli', 'acquire', '--lock', str(path.parent / spec['source_lock']), '--root', str(path.parent / spec['raw_root'])], check=True)
+          PY
+      - run: python -m madrid_demography.cli prepare "$PROJECT_CONFIG"
+      - run: python -m madrid_demography.cli build "$PROJECT_CONFIG"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-data-build
+          path: |
+            web/data/
+            data/derived/

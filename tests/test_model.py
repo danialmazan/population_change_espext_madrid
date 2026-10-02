@@ -37,7 +37,9 @@ class ModelTests(unittest.TestCase):
             ("S1", 35, "female", "EXT"): 45,
             ("S1", 5, "female", "ESP"): 12,
         }
-        result = build_analysis(start, end, self.mortality, self.geographies, 2015, 2025)
+        result = build_analysis(
+            start, end, self.mortality, self.geographies, 2015, 2025
+        )
         areas = {area["id"]: area for area in result["areas"]}
         expected = 150 * 0.99**10
         self.assertAlmostEqual(areas["S1"]["expected"], expected, places=3)
@@ -61,7 +63,9 @@ class ModelTests(unittest.TestCase):
             path = Path(directory) / "population.csv"
             with path.open("w", newline="", encoding="utf-8") as handle:
                 writer = csv.writer(handle)
-                writer.writerow(["geography_id", "age", "sex", "nationality", "population"])
+                writer.writerow(
+                    ["geography_id", "age", "sex", "nationality", "population"]
+                )
                 writer.writerow(["S1", 25, "male", "ESP", 1])
                 writer.writerow(["S1", 25, "male", "ESP", 2])
             with self.assertRaisesRegex(ContractError, "duplicate"):
@@ -70,4 +74,3 @@ class ModelTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

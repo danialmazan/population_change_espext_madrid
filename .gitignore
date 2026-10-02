@@ -4,3 +4,9 @@ __pycache__/
 dist/
 *.egg-info/
 
+data/raw/
+data/intermediate/
+data/derived/
+web/data/2014-2024/
+web/data/2015-2025/
+playwright-report/
