@@ -414,6 +414,8 @@ def write_bundle(
     for source_path in sorted(
         [
             *code_root.glob("src/**/*.py"),
+            *code_root.glob("scripts/**/*.py"),
+            *code_root.glob("config/**/*.json"),
             *code_root.glob("web/*.js"),
             *code_root.glob("web/*.html"),
             *code_root.glob("web/*.css"),
