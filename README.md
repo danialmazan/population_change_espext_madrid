@@ -69,3 +69,11 @@ python scripts/check_browser.py
 The browser script uses `/usr/bin/chromium` locally; set `MADRID_BROWSER=playwright` to use a Playwright-installed browser. It needs permission to launch Chromium and listen on localhost. CI runs analytical, fixture-budget, and browser checks. The manual official-build workflow acquires pinned resources, prepares canonical inputs, enforces release gates, and uploads artifacts without deploying them.
 
 Generated window bundles and raw official data are excluded from Git; rebuild the demonstration after checkout. Hashed JSON/gzip artifacts permit immutable caching; catalog and manifest files require revalidation. See the generated `audit.html`, `reports/`, and manifest for QA, source hashes, code hashes, geometry versions, and payload sizes.
+
+## Observed research build
+
+The observed research results are in [docs/RESEARCH_RESULTS.md](docs/RESEARCH_RESULTS.md), with an updated [audit PDF](reports/current-audit.pdf), [small-area results](reports/research-area-results.csv) and [downloadable explorer](reports/research-explorer.zip). These are labelled research results; official statistical release gates remain closed.
+
+Install requirements.lock and PyShp 2.3.1, acquire the pinned source lock, then run `python scripts/build_research.py`. The site is generated in `data/derived/research-site`; validate it with `scripts/check_research_budgets.py` and `scripts/check_research_browser.py`. The latter serves localhost and requires Chromium or the Playwright browser. Run `python -m http.server --directory data/derived/research-site` to preview it locally.
+
+GitHub Pages deployment uses the repository's gh-pages branch, root directory. See [deployment instructions](docs/RESEARCH_DEPLOYMENT.md).

@@ -1,5 +1,7 @@
 # Official input integration — 2 October 2026
 
+Current observed research calculations, annual reconciliation, sensitivity checks and explorer results are documented in [RESEARCH_RESULTS.md](RESEARCH_RESULTS.md). Those calculations do not constitute an official release approval. Earlier acquisition audit sections below retain their recorded snapshot counts; the current lock additionally includes the archived INE reuse terms (41 pinned resources).
+
 The current pipeline now shares a pinned manifest with the empirical audit: 29 immutable snapshots covering January 2014–2025, 2015/2025 section geometries, independent annual controls, municipal methodology and mortality sources. Raw files remain outside Git. `python -m madrid_demography.cli acquire --lock sources.lock.yml --root data/raw` restores the newer pipeline's extensionless, checksum-addressed layout. Audit readers resolve files under the supplied raw root; receipt paths from another machine are not used for pinned inputs.
 
 The provisional boundary audit additionally needs `pip install ".[audit-gis]"` (PyShp); the publication GIS importer continues to use GDAL.

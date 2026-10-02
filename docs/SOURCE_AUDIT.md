@@ -1,5 +1,7 @@
 # Official source acquisition and preliminary feasibility audit
 
+Current observed research calculations, annual reconciliation, sensitivity checks and explorer results are documented in [RESEARCH_RESULTS.md](RESEARCH_RESULTS.md). Those calculations do not constitute an official release approval. Earlier acquisition audit sections below retain their recorded snapshot counts; the current lock additionally includes the archived INE reuse terms (41 pinned resources).
+
 Audit date: **2 October 2026**. Outcome: **sources available; official analytical release remains blocked**. The analytical pipeline and static demo already exist. This audit does not replace the demonstration payload with official results.
 
 This document records the original acquisition snapshot. Subsequent [integration](OFFICIAL_INTEGRATION.md), [conditional count-policy](BLANK_COUNT_POLICY.md) and [boundary review](BOUNDARY_REVIEW.md) reports contain the current findings.

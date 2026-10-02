@@ -1,5 +1,7 @@
 # Implementation and validation status
 
+Current observed research calculations, annual reconciliation, sensitivity checks and explorer results are documented in [RESEARCH_RESULTS.md](RESEARCH_RESULTS.md). Those calculations do not constitute an official release approval. Earlier acquisition audit sections below retain their recorded snapshot counts; the current lock additionally includes the archived INE reuse terms (41 pinned resources).
+
 The original “research only” status in PLAN.md was obsolete. The repository now implements the software stages below. This does **not** assert completion of the plan's empirical research, source audits, or release gates.
 
 | Phase | Software delivered | Remaining empirical work |
@@ -25,3 +27,9 @@ The automated suite covers annual compounding, source/schema drift, mortality un
 The fixture build checks four bundles (two periods × exact/inclusive), including combined initial-data gzip <500 KB, per-level geometry gzip <1 MB, and area-profile gzip <100 KB. Fixture compliance does not establish real-data performance.
 
 Review gates are evidence-driven. An official source flag alone cannot bypass them. The plan's 95% gate chooses whether section results are a suitable default; it does not justify suppressing accounting discrepancies or unreviewed changes.
+
+## Completed research roadmap — 2 October 2026
+
+City calculations for both ten-year windows, independent lx checks, national/Madrid and terminal-age sensitivities, intermediate-year comparisons, common-zone and parent pooling, and results at every spatial level are complete as research outputs. The 2021 raw-source discrepancy remains explicitly unresolved; its city comparison uses the monthly bank’s explicit counts. Historical parent validity and final analytical approvals remain official-release blockers.
+
+The observed explorer passes real-data payload budgets and browser checks. The updated report, small-area inventory, plots, preview screenshots and website archive are published on the integration branch. A static gh-pages branch is prepared for GitHub Pages; the repository hosting setting must point to that branch before a live URL can be asserted.

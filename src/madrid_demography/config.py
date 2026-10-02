@@ -50,7 +50,7 @@ class ModelConfig:
             raise ContractError("invalid geometry tolerances")
         if self.discontinuity_threshold < 0 or self.timing_materiality < 0:
             raise ContractError("invalid diagnostic thresholds")
-        if self.dataset_kind not in {"official", "demonstration"}:
+        if self.dataset_kind not in {"official", "demonstration", "research"}:
             raise ContractError("invalid dataset kind")
 
     @property

@@ -63,8 +63,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 28153557,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "mortality"
+      "license": "CC-BY-4.0 (INE general statistical-information reuse terms, absent specific exception)",
+      "role": "mortality",
+      "license_evidence": "ine_reuse_terms"
     },
     {
       "id": "sections_2015",
@@ -79,8 +80,9 @@
       "boundary_review_status": "provisional_requires_review",
       "bytes": 63901341,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "geometry"
+      "license": "CC-BY-4.0 (INE general statistical-information reuse terms, absent specific exception)",
+      "role": "geometry",
+      "license_evidence": "ine_reuse_terms"
     },
     {
       "id": "sections_2025",
@@ -95,8 +97,9 @@
       "boundary_review_status": "provisional_requires_review",
       "bytes": 60298555,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "geometry"
+      "license": "CC-BY-4.0 (INE general statistical-information reuse terms, absent specific exception)",
+      "role": "geometry",
+      "license_evidence": "ine_reuse_terms"
     },
     {
       "id": "padron_january_2024",
@@ -114,8 +117,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 34017598,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2022",
@@ -133,8 +137,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22623905,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2021",
@@ -152,8 +157,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22859299,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2020",
@@ -171,8 +177,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22565655,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2018",
@@ -190,8 +197,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 12281671,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2016",
@@ -209,8 +217,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22143210,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2015",
@@ -228,8 +237,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22103270,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2014",
@@ -247,8 +257,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22023969,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2023",
@@ -266,8 +277,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 32977721,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2017",
@@ -285,8 +297,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22191969,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2019",
@@ -304,8 +317,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 22487842,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "padron_january_2025",
@@ -323,8 +337,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 34244556,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_current_catalogue"
     },
     {
       "id": "mortality_series",
@@ -363,8 +378,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 4838098,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "mortality"
+      "license": "CC-BY-4.0 (INE general statistical-information reuse terms, absent specific exception)",
+      "role": "mortality",
+      "license_evidence": "ine_reuse_terms"
     },
     {
       "id": "mortality_collection",
@@ -457,8 +473,9 @@
       "approval_scope": "acquisition_snapshot_only",
       "bytes": 16511414,
       "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval",
-      "license": null,
-      "role": "padron"
+      "license": "CC-BY-4.0",
+      "role": "padron",
+      "license_evidence": "padron_historical_catalogue"
     },
     {
       "id": "municipal_barrios_historical",
@@ -601,6 +618,17 @@
       "snapshot_retrieved_at": "2026-10-02T14:09:04.031034+00:00",
       "approval_scope": "acquisition_snapshot_only",
       "reviewed_by": "Codex download inspection, 2026-10-02; no analytical release approval"
+    },
+    {
+      "id": "ine_reuse_terms",
+      "url": "https://www.ine.es/dyngs/AYU/index.htm?cid=125",
+      "provider": "Instituto Nacional de Estadística",
+      "role": "metadata",
+      "reference_date": null,
+      "sha256": "2e46837e1ab3d8fab3bac3c026ddbcbb3cc9c57fea1caaac4655dedcd0255829",
+      "bytes": 34844,
+      "license": null,
+      "reviewed_by": "Codex acquisition inspection, 2026-10-02; not an analytical release approval"
     }
   ],
   "status": "acquisition-snapshots-verified-analytical-gates-unresolved"
